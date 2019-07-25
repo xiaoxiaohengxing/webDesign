@@ -1,0 +1,67 @@
+<TEMPLATE APPNAME="123FLASHMENU" VER_NUMBER="2" VER_LOWNUMBER="2" TYPE="10" SWF_NAME="image_marquee" SUB_LEVEL="1" CATALOG="5" SWF_SHOWNAME="image_marquee" WIDTH="132" HEIGHT="400" BGCOLOR="clWhite" FLASHBGCOLOR="clWhite" TRANSPARENT="false">
+  <GROUP_ATTRIBUTE>
+  	<PARAM ID="1" DF_VALUE="new item"/>
+  	<PARAM ID="2" DF_VALUE=""/>
+  	<PARAM ID="3" DF_VALUE="_blank,_parent,_self,_top"/>  	  	  	
+  	<PARAM ID="5" DF_VALUE=""/>  	
+  </GROUP_ATTRIBUTE>
+	<GROUP_MENU>	
+		<GROUP_PARAM ID="160">
+				<PARAM ID="161" DF_VALUE="Center,Left,Right"/>
+				<PARAM ID="162" DF_VALUE="0x00000000"/>
+				<PARAM ID="163" DF_VALUE="0x000000ff"/>
+				<PARAM ID="164" DF_VALUE="Verdana"/>
+				<PARAM ID="165" DF_VALUE="8"/>
+				<PARAM ID="166" DF_VALUE="Plain,Bold,Italic,Bold-Italic"/>
+				<PARAM ID="167" DF_VALUE="true"/>
+				<PARAM ID="168" DF_VALUE="true"/>
+				<PARAM ID="169" DF_VALUE="10"/>
+				<PARAM ID="170" DF_VALUE="true"/>
+				<PARAM ID="171" DF_VALUE="true"/>
+				<PARAM ID="172" DF_VALUE="_self"/>
+		</GROUP_PARAM>
+		<GROUP_PARAM ID="180">
+				<PARAM ID="181" DF_VALUE="0x00ffffff"/>
+				<PARAM ID="182" DF_VALUE="2"/>
+				<PARAM ID="183" DF_VALUE="true"/>
+				<PARAM ID="184" DF_VALUE="0x00ffffff"/>
+		</GROUP_PARAM>
+		<GROUP_PARAM ID="190">
+				<PARAM ID="191" DF_VALUE="0x00000000"/>
+				<PARAM ID="192" DF_VALUE="clGray"/>
+				<PARAM ID="193" DF_VALUE="Loading..."/>
+				<PARAM ID="194" DF_VALUE="0x00000000"/>
+		</GROUP_PARAM>
+		<GROUP_PARAM ID="200">
+				<PARAM ID="201" DF_VALUE="true"/>
+				<PARAM ID="202" DF_VALUE="12"/>
+				<PARAM ID="203" DF_VALUE="clWhite"/>
+		</GROUP_PARAM>	
+		<GROUP_PARAM ID="210">
+				<PARAM ID="211" DF_VALUE="20"/>
+				<PARAM ID="212" DF_VALUE="10"/>
+				<PARAM ID="213" DF_VALUE="true"/>
+		</GROUP_PARAM>				
+		<PARAM ID="214" DF_VALUE="Bottom,Top"/>		
+		<PARAM ID="136" DF_VALUE=""/>		
+	</GROUP_MENU>
+	<GROUP_SIZE>
+		<PARAM ID="140" DF_VALUE="132"/>
+		<PARAM ID="141" DF_VALUE="400"/>
+	</GROUP_SIZE>
+	<GROUP_PAGE>
+		<PARAM ID="143" DF_VALUE="clWhite"/>
+		<PARAM ID="144" DF_VALUE="clWhite"/>
+		<PARAM ID="145" DF_VALUE="false"/>
+	</GROUP_PAGE>
+	<MENU>
+		<item name="ABOUTUS" bgImage="p1.jpg" callback="onClick"  />
+		<item name="SERVICES" bgImage="p2.jpg" callback="onClick"  />
+		<item name="AFFILIATES" bgImage="p3.jpg" callback="onClick"  />
+		<item name="SUPPORT" bgImage="p4.jpg" callback="onClick"  />
+		<item name="CONTACT" bgImage="p5.jpg" callback="onClick"  />
+	</MENU>
+</TEMPLATE>
+
+
+

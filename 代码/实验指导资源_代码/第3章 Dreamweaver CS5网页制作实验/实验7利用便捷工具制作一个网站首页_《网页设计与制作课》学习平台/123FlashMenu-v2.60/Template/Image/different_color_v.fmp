@@ -1,0 +1,51 @@
+<TEMPLATE APPNAME="123FLASHMENU" VER_NUMBER="2" VER_LOWNUMBER="2" TYPE="11" SWF_NAME="different_color_v" SUB_LEVEL="1" CATALOG="5" SWF_SHOWNAME="different_color_v" WIDTH="100" HEIGHT="215" BGCOLOR="clWhite" FLASHBGCOLOR="clWhite" TRANSPARENT="true" AUTOSIZE="true">
+    <GROUP_ATTRIBUTE>
+  	<PARAM ID="1" DF_VALUE="new item"/>
+  	<PARAM ID="2" DF_VALUE=""/>
+  	<PARAM ID="3" DF_VALUE="_blank,_parent,_self,_top"/>  	  	
+  	<PARAM ID="7" DF_VALUE="0xcccccc"/>
+  	<PARAM ID="8" DF_VALUE="0xcccccc"/>
+  	<PARAM ID="10" DF_VALUE="0x000000"/>  	  	  	
+  	<PARAM ID="11" DF_VALUE="0xcccccc"/>  	  	  	
+  </GROUP_ATTRIBUTE>
+	<GROUP_MENU>
+		<PARAM ID="1" DF_VALUE="80"/>
+		<PARAM ID="2" DF_VALUE="40"/>
+		<PARAM ID="3" DF_VALUE="3"/>
+		<PARAM ID="4" DF_VALUE="verdana"/>
+		<PARAM ID="5" DF_VALUE="9"/>
+		<PARAM ID="6" DF_VALUE="0xffffff"/>
+		<PARAM ID="7" DF_VALUE="true"/>
+		<PARAM ID="8" DF_VALUE="center,left,right"/>
+		<PARAM ID="9" DF_VALUE="0"/>
+		<PARAM ID="10" DF_VALUE="10"/>
+		<PARAM ID="12" DF_VALUE="0x000000"/>		
+		<PARAM ID="15" DF_VALUE="0x1264fe"/>
+		<PARAM ID="31" DF_VALUE="100"/>	
+		<PARAM ID="32" DF_VALUE="true"/>
+		<PARAM ID="34" DF_VALUE="true"/>
+		<PARAM ID="16" DF_VALUE=""/>
+		<PARAM ID="17" DF_VALUE="false"/>	
+		<PARAM ID="150" DF_VALUE="false"/>
+	</GROUP_MENU>
+	<GROUP_SIZE>
+		<PARAM ID="140" DF_VALUE="100"/>
+		<PARAM ID="141" DF_VALUE="215"/>
+		<PARAM ID="142" DF_VALUE="true"/>
+	</GROUP_SIZE>
+	<GROUP_PAGE>
+		<PARAM ID="143" DF_VALUE="clWhite"/>
+		<PARAM ID="144" DF_VALUE="clBlack"/>
+		<PARAM ID="145" DF_VALUE="true"/>
+	</GROUP_PAGE>
+	<MENU>
+		<item name="ABOUTUS"  menuBgColor="0x88335E" menuOverColor="0xD187AD" menuBgClickedColor="0xff0000" txtClickedColor="0xFFFF00" callback="onClick"  />
+		<item name="SERVICES" menuBgColor="0x269533" menuOverColor="0x91E194" menuBgClickedColor="0xff0000" txtClickedColor="0xFFFF00" callback="onClick"  />		
+		<item name="AFFILIATES" menuBgColor="0x42318A" menuOverColor="0xB4ADE2" menuBgClickedColor="0xff0000" txtClickedColor="0xFFFF00" callback="onClick"  />
+		
+		<item name="SUPPORT"  menuBgColor="0xBB0000" menuOverColor="0xFEA5A5" menuBgClickedColor="0xff0000" txtClickedColor="0xFFFF00" callback="onClick"  />
+		<item name="CONTACT"  menuBgColor="0xC6773E" menuOverColor="0xDEAD94" menuBgClickedColor="0xff0000" txtClickedColor="0xFFFF00" callback="onClick"  />
+	</MENU>
+</TEMPLATE>
+
+

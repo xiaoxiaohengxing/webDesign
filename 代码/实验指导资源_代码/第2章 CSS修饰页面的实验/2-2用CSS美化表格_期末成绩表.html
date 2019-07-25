@@ -1,0 +1,91 @@
+<html>
+<head>
+<title>表格的美化</title>
+<style type="text/css">
+table {
+	      font-family: "隶书";
+font-size: 16px;
+	  text-align: center;
+}
+table caption {
+	font-size: 36px;
+	font-weight: bold;
+	background-color: #FF0;
+	border-top-style:solid;
+	border-bottom-width: 2px;
+	border-bottom-style:solid;
+	border-top-color: #F00;	
+	border-bottom-color: #F00;	
+}
+tbody tr {
+    background-color: #ccc;
+}
+td,th {
+	border: 2px solid #eee;
+border-right-color: #999;
+border-bottom-color: #999;
+padding: 5px;
+}
+thead {
+background-color: #f7f2ea;
+}
+tfoot {
+	background-color: #06F;
+}
+tr.even {
+	background-color: #999;
+}
+
+</style>
+</head>
+<body>
+<table width="400" border="0" cellspacing="0" >
+<caption>期末考试成绩表</caption>
+<thead>                           <!--定义表格的表头-->
+  <tr>
+    <th>姓名</th>
+    <th>计算机网络</th>
+    <th>数据库原理</th>
+    <th>网页设计</th>
+    <th>总分</th>
+  </tr>
+</thead>
+<tbody>                           <!--定义表格的表体-->
+       <tr class="even">
+          <th>王二</th>
+          <td>77</td>
+          <td>66</td>
+          <td>78</td>
+          <td>221</td>
+       </tr>
+<tr>
+          <th>张三</th>
+          <td>88</td>
+          <td>80</td>
+          <td>86</td>
+          <td>254</td>
+       </tr>
+       <tr class="even">
+          <th>李四</th>
+          <td>98</td>
+          <td>57</td>
+          <td>90</td>
+          <td>245</td>
+       </tr>
+<tr>
+          <th>赵五</th>
+          <td>67</td>
+          <td>90</td>
+          <td>69</td>
+          <td>226</td>
+</tr>
+</tbody>
+<tfoot>                             <!--定义表格的表尾-->
+<tr>
+          <th>平均分</th>
+          <td colspan="4">78.83</td>
+      </tr>
+</tfoot>
+</table>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<TEMPLATE APPNAME="123FLASHMENU" VER_NUMBER="2" VER_LOWNUMBER="2" TYPE="9" SWF_NAME="treeview" SUB_LEVEL="0" CATALOG="2" SWF_SHOWNAME="treeview" WIDTH="250" HEIGHT="300" BGCOLOR="clwhite" FLASHBGCOLOR="clwhite" TRANSPARENT="true" >
+  <GROUP_ATTRIBUTE>
+  	<PARAM ID="1" DF_VALUE="new item"/>
+  	<PARAM ID="2" DF_VALUE=""/>
+  	<PARAM ID="3" DF_VALUE="_blank,_parent,_self,_top"/>  	
+  </GROUP_ATTRIBUTE>
+	<GROUP_MENU>		
+		<GROUP_PARAM ID="380">
+			<PARAM ID="384" DF_VALUE="verdana"/>
+			<PARAM ID="385" DF_VALUE="10"/>
+			<PARAM ID="386" DF_VALUE="false"/>
+			<PARAM ID="387" DF_VALUE="false"/>
+			<PARAM ID="388" DF_VALUE="false"/>
+			<PARAM ID="389" DF_VALUE="left,center,right"/>
+			<PARAM ID="390" DF_VALUE="1"/>
+			<PARAM ID="391" DF_VALUE="0x000000"/>
+			<PARAM ID="392" DF_VALUE="0x3C332"/>
+			<PARAM ID="393" DF_VALUE="0x335F00"/>
+		</GROUP_PARAM>
+		<GROUP_PARAM ID="381">
+			<PARAM ID="394" DF_VALUE=""/>
+			<PARAM ID="395" DF_VALUE=""/>
+			<PARAM ID="396" DF_VALUE=""/>
+			<PARAM ID="397" DF_VALUE=""/>
+			<PARAM ID="398" DF_VALUE=""/>
+		</GROUP_PARAM>
+		<GROUP_PARAM ID="382">			
+			<PARAM ID="402" DF_VALUE="true"/>
+			<PARAM ID="403" DF_VALUE="haloGreen,haloBlue,haloOrange"/>
+			<PARAM ID="404" DF_VALUE="0xD6FFE3"/>
+			<PARAM ID="405" DF_VALUE="0xC1FFCD"/>
+		</GROUP_PARAM>				
+		<PARAM ID="383" DF_VALUE="20"/>
+		<PARAM ID="399" DF_VALUE="17"/>
+		<PARAM ID="400" DF_VALUE="250"/>
+		<PARAM ID="401" DF_VALUE="0xFFFFFF"/>
+		<PARAM ID="406" DF_VALUE="inset,outset,solid,none"/>
+		<PARAM ID="407" DF_VALUE="false"/>
+		<PARAM ID="408" DF_VALUE="10"/>
+		<PARAM ID="409" DF_VALUE="true"/>		
+		<PARAM ID="17" DF_VALUE="false"/>		
+		<PARAM ID="150" DF_VALUE="false"/>		
+	</GROUP_MENU>	
+	<GROUP_SIZE>
+		<PARAM ID="140" DF_VALUE="250"/>
+		<PARAM ID="141" DF_VALUE="300"/>		
+	</GROUP_SIZE>
+	<GROUP_PAGE>
+		<PARAM ID="143" DF_VALUE="clWhite"/>
+		<PARAM ID="144" DF_VALUE="clWhite"/>
+		<PARAM ID="145" DF_VALUE="false"/>
+	</GROUP_PAGE>
+	<MENU>
+		<item name="Home" >
+			<item name="SiteMap"/>
+			<item name="ContactUs"/>
+			<item name="Link to us"/>
+			<item name="Privacy"/>
+			<item name="Resellers"/>
+			<item name="Domain Help"/>
+		</item>
+		<item name="Products" >			
+			<item name="123 Flash Menu" />
+			<item name="Flash Albumn" />
+			<item name="Flash Capture" />
+			<item name="Flash Admin" />
+			<item name="Flash Smith" />			
+		</item>
+		<item name="Download" >
+			<item name="Free Trails" />
+			<item name="Updates" />
+			<item name="Get FlashPlayer" />
+			<item name="More..." />
+		</item>
+		<item name="Order" >
+			<item name="Order Home" />
+			<item name="Options" />
+			<item name="Licensing" />
+			<item name="Order History"/>
+			<item name="More..."/>
+		</item>
+		<item name="Support" >
+			<item name="Windows 98" />
+			<item name="Windows 2000" />
+			<item name="Windows XP" />
+			<item name="Linux" />
+			<item name="MAC OS" />
+		</item>
+	</MENU>
+</TEMPLATE>

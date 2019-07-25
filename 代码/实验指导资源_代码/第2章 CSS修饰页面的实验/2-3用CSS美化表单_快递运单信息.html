@@ -1,0 +1,79 @@
+<html>
+<head>
+<title>表单的美化</title>
+
+<style>
+.exlist{
+background-color:#F9EE70;
+margin:30px auto;
+padding:5px;
+width:400px;
+min-height:200px;
+height:auto;
+font-family:"微软雅黑";
+}
+div.row{
+margin:10px;
+padding:5px;
+}
+
+input.txt{
+background-color:#F9EE70;
+color:#333;
+width:150px;
+height:20px;
+margin:0 10px;
+font-size:16px;
+line-height:20px;
+border:none;
+border-bottom:1px solid #565656;
+}
+select{
+	width: 100px;
+	color: #00008B;
+	background-color: #ADD8E6;
+	border: 1px solid #00008B;
+}
+
+textarea{
+	width: 200px;
+	height: 40px;
+	color: #00008B;
+	background-color: #ADD8E6;
+	border: 1px inset #00008B;
+}
+
+
+
+</style>
+</head>
+<body>
+<div class="exlist">
+<center>快递运单信息</center>
+<form method="post" action="">
+<div class="row">
+1. 收货人:<input style="width:100px" class="txt" type="text" />
+2. 目的地:
+<select>
+<option>北京</option>
+<option>上海</option>
+<option>武汉</option>
+<option>南昌</option>
+</select>
+</div>
+<div class="row">
+3. 联系电话:<input class="txt" type="text" />
+</div>
+<div class="row">
+4. 详细地址: <textarea name="sign" cols="20" rows="4"></textarea>
+</div>
+<div class="row"> 
+<input class="btn" type="submit" name="Submit" value="提 交" />
+  <input class="btn" type="reset" name="Submit2" value="重 置" />
+</div>
+</form>
+</div>
+</body>
+</html>
+
+

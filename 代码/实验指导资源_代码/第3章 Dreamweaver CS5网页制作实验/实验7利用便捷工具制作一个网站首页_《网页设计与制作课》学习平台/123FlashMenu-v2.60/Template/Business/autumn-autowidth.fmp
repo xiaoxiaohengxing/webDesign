@@ -1,0 +1,161 @@
+<TEMPLATE APPNAME="123FLASHMENU" VER_NUMBER="2" VER_LOWNUMBER="2" TYPE="7" SWF_NAME="color" SUB_LEVEL="0" CATALOG="2" SWF_SHOWNAME="autumn-autowidth" WIDTH="550" HEIGHT="244" BGCOLOR="0xFF9933" FLASHBGCOLOR="clWhite" TRANSPARENT="true" AUTOSIZE="false">
+  <GROUP_ATTRIBUTE>
+  	<PARAM ID="1" DF_VALUE="new item"/>
+  	<PARAM ID="2" DF_VALUE=""/>
+  	<PARAM ID="3" DF_VALUE="_blank,_parent,_self,_top"/>  	
+  </GROUP_ATTRIBUTE>
+	<GROUP_MENU>
+		<GROUP_PARAM ID="40">
+			<PARAM ID="41" DF_VALUE="Horizontal,Vertical"/>
+			<PARAM ID="42" DF_VALUE="false"/>
+			<PARAM ID="43" DF_VALUE="onRollOver,onPress"/>
+			<PARAM ID="44" DF_VALUE="100"/>
+			<PARAM ID="45" DF_VALUE="24"/>
+			<PARAM ID="46" DF_VALUE="0"/>
+			<PARAM ID="47" DF_VALUE="0"/>
+			<PARAM ID="48" DF_VALUE="0xD8DEDD"/>
+			<PARAM ID="49" DF_VALUE="clBlack"/>
+			<PARAM ID="50" DF_VALUE="clBlack"/>
+			<PARAM ID="51" DF_VALUE="true"/>
+		</GROUP_PARAM>
+		<GROUP_PARAM ID="60">
+			<PARAM ID="61" DF_VALUE="true"/>
+			<PARAM ID="62" DF_VALUE="clYellow"/>
+			<PARAM ID="63" DF_VALUE="0x30B4F3"/>
+			<PARAM ID="64" DF_VALUE="clMaroon"/>
+			<PARAM ID="65" DF_VALUE="0x4080FF"/>
+			<PARAM ID="66" DF_VALUE="clMaroon"/>
+			<PARAM ID="67" DF_VALUE="clMaroon"/>
+		</GROUP_PARAM>
+		<GROUP_PARAM ID="70">
+			<PARAM ID="71" DF_VALUE="clBlack"/>
+			<PARAM ID="72" DF_VALUE="clWhite"/>
+			<PARAM ID="73" DF_VALUE="clWhite"/>
+			<PARAM ID="74" DF_VALUE="Verdana"/>
+			<PARAM ID="75" DF_VALUE="11"/>
+			<PARAM ID="76" DF_VALUE="left,center,right"/>
+			<PARAM ID="77" DF_VALUE="10"/>
+			<PARAM ID="78" DF_VALUE="10"/>
+			<PARAM ID="79" DF_VALUE="false"/>
+			<PARAM ID="80" DF_VALUE="false"/>
+		</GROUP_PARAM>
+		<GROUP_PARAM ID="90">
+			<PARAM ID="91" DF_VALUE="false"/>
+			<PARAM ID="92" DF_VALUE="clGray"/>
+			<PARAM ID="93" DF_VALUE="0"/>
+		</GROUP_PARAM>
+		<GROUP_PARAM ID="100">
+			<PARAM ID="101" DF_VALUE="true"/>
+			<PARAM ID="102" DF_VALUE="clGray"/>
+			<PARAM ID="103" DF_VALUE="1"/>
+			<PARAM ID="104" DF_VALUE="true"/>
+			<PARAM ID="105" DF_VALUE="Out,In"/>
+		</GROUP_PARAM>
+		<GROUP_PARAM ID="110">
+			<PARAM ID="111" DF_VALUE="true"/>
+			<PARAM ID="112" DF_VALUE="4"/>
+		</GROUP_PARAM>
+		<GROUP_PARAM ID="120">
+			<PARAM ID="121" DF_VALUE="true"/>
+			<PARAM ID="122" DF_VALUE="80"/>
+		</GROUP_PARAM>
+		<GROUP_PARAM ID="130">
+			<PARAM ID="131" DF_VALUE="true"/>
+			<PARAM ID="132" DF_VALUE="1000"/>
+		</GROUP_PARAM>
+		<PARAM ID="133" DF_VALUE="Down,Up"/>
+		<PARAM ID="134" DF_VALUE="530"/>
+		<PARAM ID="135" DF_VALUE="2000"/>
+		<PARAM ID="136" DF_VALUE=""/>
+		<PARAM ID="137" DF_VALUE="false"/>
+		<PARAM ID="150" DF_VALUE="false"/>
+	</GROUP_MENU>
+	<GROUP_SIZE>
+		<PARAM ID="140" DF_VALUE="550"/>
+		<PARAM ID="141" DF_VALUE="244"/>
+		<PARAM ID="142" DF_VALUE="false"/>
+	</GROUP_SIZE>
+	<GROUP_PAGE>
+		<PARAM ID="143" DF_VALUE="0xFF9933"/>
+		<PARAM ID="144" DF_VALUE="clWhite"/>
+		<PARAM ID="145" DF_VALUE="true"/>
+	</GROUP_PAGE>
+	<MENU>
+		<item name="Home" >
+			<item name="SiteMap" />
+			<item name="ContactUs" >
+					<item name="United States" />
+					<item name="United Kingdom" />
+					<item name="France" />
+					<item name="German" />
+					<item name="Japan" />
+			</item>
+			<item name="Link to us" />
+			<item name="Privacy" />
+			<item name="Resellers" />
+			<item name="Domain Help" />
+		</item>
+		<item name="Products" >
+			<item name="Powerpoint To Flash" />
+			<item name="123 Flash Menu" >
+					<item name="Overview" />
+					<item name="Benifits" />
+					<item name="Templates" >
+							<item name="Business Templates"/>
+							<item name="Art Templates"/>
+							<item name="Classic Templates"/>
+							<item name="HighTec Templates"/>
+							<item name="Modern Templates"/>
+							<item name="Image Templates"/>
+					</item>
+					<item name="Screen Shot" />
+					<item name="Advanced Samples" />
+			</item>
+			<item name="Flash Albumn" />
+			<item name="Flash Capture" />
+			<item name="Flash Admin" />
+			<item name="Flash Smith" />			
+		</item>
+		<item name="Download" >
+			<item name="Download Home" />
+			<item name="Free Trails" />
+			<item name="Updates" />
+			<item name="Get Flash Player" />
+			<item name="More..." />
+		</item>
+		<item name="Online Store" >
+			<item name="Order Home" />
+			<item name="Puchase Options" />
+			<item name="Volume Licensing" />
+			<item name="Order History" />
+			<item name="More..."/>
+		</item>
+		<item name="Support" >
+			<item name="Windows 98" />
+			<item name="Windows 2000" />
+			<item name="Windows XP" />
+			<item name="Linux" />
+			<item name="MAC OS" />
+		</item>
+		<item name="Our Company" >
+			<item name="Overview" />
+			<item name="Partnershilps" />
+			<item name="Jobs" />
+			<item name="Top Management" />
+			<item name="News" />
+		</item>
+		<item name="Links" >
+			<item name="About-Flash.com" />
+			<item name="DreamlineStudio" />
+			<item name="SWFNews.com" />
+			<item name="FlashGuru.co.uk" />
+			<item name="FlashLodaed.com" />
+			<item name="FlashTemplateSore"/>
+			<item name="More ... "/>
+		</item>
+	</MENU>
+</TEMPLATE>
+
+
+
+

@@ -1,0 +1,109 @@
+123 Flash Menu Version 2.6 End-User License Agreement
+Copyright (c) 2003-2007 Dreamingsoft, Inc.
+All Rights Reserved
+Installing and using this Software signifies acceptance of these terms and
+conditions of the license. If you do not agree with the terms of this license,
+you must remove this Software from your storage devices and cease to use this
+product.
+
+The Software is protected by copyright laws and international copyright
+treaties, as well as other intellectual property laws and treaties. The
+Software is licensed, not sold and always remains the property of
+Dreamingsoft, Inc.
+
+
+DEFINITIONS
+For the purpose of this Agreement, "Software" shall mean the software
+identified above, including but not limited to any updates, modifications,
+revisions, copies, and associated documentation provided by Dreamingsoft, Inc.
+
+
+GRANT OF LICENSE
+Evaluation Terms and Conditions
+You may use this Software solely for evaluation purposes without charge for a
+period of thirty (30) uses. You are free to distribute exact copies of the
+Software to anyone. You are prohibited from selling, or requesting donations,
+for any copies of the Software you distribute. You must include a copy of this
+license with any copy of the Software. You may not remove or alter any
+identification, proprietary notice, label, or trademarks which appear on or in
+the Software. Continued use of the Software after the thirty (30) uses
+evaluation period requires purchase of a full license. For more information
+about payment methods, please see ORDER.TXT, included with the Software.
+
+Full License Terms and Conditions
+Once registered, you are granted a non-exclusive license to use the Software
+on one or more computers, or allow multiple persons to nonsimultaneously use
+the Software on a single computer, but not both. This is not a concurrent use
+license. If the Software is installed on a network server and accessed by
+multiple workstations, you must purchase a license for each computer on which
+the Software is used. You may not provide third parties access to the Software
+in connection with a service bureau, application service provider, or similar
+business. The registered Software may not be rented or leased but may be
+permanently transferred, if the person receiving it agrees to terms of this
+license. If the software is an update, the transfer must include the update
+and all previous versions.
+
+You are allowed to create as many menus as you wish, and using them on your 
+web sites, eBooks, Flash applications, etc. However, you are not allowed to 
+resell the outputting menus directly, for example, through an online menu 
+templates gallery.
+
+All rights of any kind in the Software which are not expressly granted in this
+license are entirely and exclusively reserved to and by Dreamingsoft, Inc.
+
+
+RESTRICTIONS
+THE SOFTWARE CANNOT BE MODIFIED. YOU MAY NOT DECOMPILE, DISASSEMBLE OR
+OTHERWISE ATTEMPT TO ACCESS THE SOURCE CODE OF THE SOFTWARE; EXCEPT AND ONLY
+TO THE EXTENT PERMITTED APPLICABLE LAW NOTWITHSTANDING THIS LIMITATION.
+
+The information contained in the Software is confidential and proprietary to
+Dreamingsoft, Inc., and Dreamingsoft, Inc. retain title to all copyright,
+patent, trademark, trade secrets, and other proprietary rights embodied in or
+related to the Software.
+
+
+TERMINATION
+Failure to comply with any provision provided in this Agreement or the use of
+the Software in a way not authorized or permitted under this Agreement will
+result in an automatic termination of this license.
+
+Dreamingsoft, Inc. may, at its sole discretion, terminate this Agreement, the
+license granted herein, and your right to use or access the Software at any
+time.
+
+On termination, you must destroy all copies of the Software.
+
+
+UPGRADES, MAINTENANCE AND SUPPORT
+During the term of this Agreement, Dreamingsoft, Inc. is under no obligation
+to provide upgrades, maintenance, or installation for the Software.
+Dreamingsoft, Inc. may provide support for the Software as governed by the
+documentation, and other Dreamingsoft, Inc. materials related to and included
+with the Software. Dreamingsoft, Inc. reserves the right to revoke or modify
+support provided for the Software at any time, for any or no reason.
+
+
+DISCLAIMER OF WARRANTY
+THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS
+OR IMPLIED, INCLUDING ANY WARRANTY OF QUALITY, MERCHANTABILITY, OR FITNESS FOR
+A PARTICULAR PURPOSE. DREAMINGSOFT, INC. DOES NOT WARRANT THAT THE SOFTWARE
+WILL MEET YOUR REQUIREMENTS, OR THAT IT WILL OPERATE UNINTERRUPTED OR
+ERROR-FREE.
+
+NOTHING IN THIS AGREEMENT SHALL BE CONSTRUED AS A WARRANTY OR A REPRESENTATION
+BY DREAMINGSOFT, INC. THAT THE SOFTWARE WILL BE FREE FROM INFRINGEMENT OF THE
+INTELLECTUAL PROPERTY RIGHTS OF A THIRD PARTY. DREAMINGSOFT, INC. HEREBY
+EXPRESSLY DISCLAIMS AND SHALL NOT BE RESPONSIBLE FOR ANY LIABILITY ARISING AS
+A RESULT OF OR IN CONNECTION WITH ANY CLAIM OR SUIT ALLEGING THAT THE
+DISTRIBUTION OR USE OF THE SOFTWARE INFRINGES THE RIGHT OF ANY THIRD PARTY.
+
+IN NO EVENT WILL DREAMINGSOFT, INC. BE LIABLE FOR LOSS OF DATA, COSTS OF
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES OR ANY SPECIAL, CONSEQUENTIAL OR
+INCIDENTAL DAMAGES, UNDER ANY CAUSE OF ACTION AND REGARDLESS OF WHETHER OR NOT
+DREAMINGSOFT, INC. HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. THIS
+LIMITATION WILL APPLY NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE OF ANY
+LIMITED REMEDY PROVIDED HEREIN. IN ANY EVENT, DREAMINGSOFT, INC.'S LIABILITY
+ARISING OUT OF THIS AGREEMENT, THE TERMINATION THEREOF, AND/OR THE PROVISION
+OF GOODS OR SERVICES HEREUNDER WILL BE LIMITED TO THE GREATER OF U.S. $1.00 OR
+THE AMOUNT PAID BY YOU FOR THE LICENSED SOFTWARE.

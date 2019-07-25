@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>用CSS制作立体效果的导航条</title>
+<style type="text/css">
+li {
+    list-style-type:none;
+	float:left;
+	width:70px;
+}
+li a{
+	font-size:12px;            /*设置字体的大小*/
+	color:#777;                /*设置字体的颜色*/
+	text-decoration:none;      /*设置字体无下划线*/
+	padding:4px;               /*设置字体的内边距*/
+	background-color:#f7f2ea;  /*设置字体的背景颜色*/
+	display:block;             /*设置以块级显示*/
+	border-width:1px;          /*设置边框为1像素*/
+	border-style:solid;        /*设置边框为实线*/
+	border-color:#ffe #aaab9c #ccc #fff;   /*设置边框时，为每个边设置了不同的边框颜色*/
+	text-align:center;          /*设置文本对齐方式为居中*/
+}
+
+li a:hover{
+	color:#800000;
+	border-color:#aaab9c #fff #fff #ccc;
+}
+li a:hover{
+	color:#800000;                           /*改变字体颜色*/
+	border-color:#aaab9c #fff #fff #ccc;     /*改变边框颜色*/
+}
+
+
+</style>
+
+
+</head>
+<body>
+<ul>
+<li><a href="#">首页</a></li>
+<li><a href="#">新闻</a></li>
+<li><a href="#">财经</a></li>
+<li><a href="#">体育</a></li>
+<li><a href="#">文化</a></li>
+<li><a href="#">娱乐</a></li>
+</ul>
+</body>
+</html>

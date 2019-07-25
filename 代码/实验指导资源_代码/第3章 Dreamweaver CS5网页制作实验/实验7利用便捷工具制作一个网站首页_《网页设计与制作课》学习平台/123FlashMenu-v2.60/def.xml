@@ -1,0 +1,442 @@
+<DEFINE VERSION='2' APPNAME='123 Flash Menu'>
+	<CATALOGS>
+		<ITEM ID='1' NAME='Art'/>
+		<ITEM ID='2' NAME='Business'/>
+		<ITEM ID='3' NAME='Classic'/>
+		<ITEM ID='4' NAME='HighTec'/>
+		<ITEM ID='5' NAME='Image'/>
+		<ITEM ID='6' NAME='Modern'/>
+		<ITEM ID='7' NAME='MyTemplates'/>
+		<ITEM ID='8' NAME='Xmas'/>
+	</CATALOGS>
+	<MENU_ITEMS>
+		<ITEM label='Home' url='http://www.dreamingsoft.com' target=''/>
+		<ITEM label='Products' url='http://www.dreamingsoft.com' target=''/>
+		<ITEM label='Download' url='http://www.dreamingsoft.com' target=''/>
+		<ITEM label='Order' url='http://www.dreamingsoft.com' target=''/>
+		<ITEM label='SiteMap' url='http://www.dreamingsoft.com' target=''/>
+		<ITEM label='Contact Us' url='http://www.dreamingsoft.com' target=''/>
+	</MENU_ITEMS>
+
+	<ATTRIBUTE_DEF>
+		<ITEM ID='1' NAME='name' DISPLAYNAME='Text' TYPE='ptText' DESCRIPTION='Specifies the text of the menu item.'/>
+		<ITEM ID='2' NAME='url' DISPLAYNAME='Link' TYPE='ptText' DESCRIPTION='Specifies the link (URL) of the target page.'/>
+		<ITEM ID='3' NAME='target' DISPLAYNAME='Target' TYPE='ptValues' DESCRIPTION='Specifies the frame or window where the target page opens.'/>
+		<ITEM ID='4' NAME='status' DISPLAYNAME='Status Info' TYPE='ptText' DESCRIPTION='Specifies the message displayed on the status bar of the browser.'/>
+		<ITEM ID='5' NAME='bgImage' DISPLAYNAME='Background Image' TYPE='ptTextButton' DESCRIPTION='Specifies the background image of the menu item.'/>
+		<ITEM ID='6' NAME='bgOverImage' DISPLAYNAME='Hot Background Image' TYPE='ptTextButton' DESCRIPTION='Specifies the background image of the menu item when the mouse hovers.'/>
+		<ITEM ID='7' NAME='menuBgColor' DISPLAYNAME='Background Color' TYPE='ptColor' DESCRIPTION='Specifies the background color of the menu item.'/>
+		<ITEM ID='8' NAME='menuOverColor' DISPLAYNAME='Hot Background Color' TYPE='ptColor' DESCRIPTION='Specifies the background color of the menu item when the mouse hovers.'/>
+		<ITEM ID='9' NAME='maskColor' DISPLAYNAME='Mask Color' TYPE='ptColor' DESCRIPTION='Specifies the mask color of the menu item.'/>
+		<ITEM ID='10' NAME='txtClickedColor' DISPLAYNAME='Selected Text Color' TYPE='ptColor' DESCRIPTION='Specifies the text color of a selected menu item.'/>
+		<ITEM ID='11' NAME='menuBgClickedColor' DISPLAYNAME='Selected Background Color' TYPE='ptColor' DESCRIPTION='Specifies the background color of a selected menu item.'/>
+		<ITEM ID='12' NAME='expand' DISPLAYNAME='Expand' TYPE='ptBoolean' DESCRIPTION='Specifies whether the menu item is expended.'/>
+		<ITEM ID='20' NAME='Menu Color' DISPLAYNAME='Menu Color' TYPE='ptButton' DESCRIPTION='Specifies the color of the menu item.'/>
+
+		<ITEM ID='50' NAME='SubTitle Style' DISPLAYNAME='Header Properties' TYPE='ptButton' DESCRIPTION='Header Properties'/>
+		<ITEM ID='51' NAME='subTitle' DISPLAYNAME='Text' TYPE='ptText' DESCRIPTION='Specifies the text of the header.'/>
+		<ITEM ID='52' NAME='subTitle_font' DISPLAYNAME='Font Name' TYPE='ptFont' DESCRIPTION='Specifies the font name.'/>
+		<ITEM ID='53' NAME='subTitle_color' DISPLAYNAME='Font Color' TYPE='ptColor' DESCRIPTION='Specifies the font color.'/>
+		<ITEM ID='54' NAME='subTitle_size' DISPLAYNAME='Font Size' TYPE='ptInteger' DESCRIPTION='Specifies the font size.'/>
+		<ITEM ID='55' NAME='subTitle_bold' DISPLAYNAME='Bold' TYPE='ptBoolean' DESCRIPTION='Specifies whether uses bold font style.'/>
+		<ITEM ID='56' NAME='subTitle_italic' DISPLAYNAME='Italic' TYPE='ptBoolean' DESCRIPTION='Specifies whether uses italic font style.'/>
+		<ITEM ID='57' NAME='subTitle_underline' DISPLAYNAME='Underline' TYPE='ptBoolean' DESCRIPTION='Specifies whether uses underline font style.'/>
+		<ITEM ID='58' NAME='subTitle_align' DISPLAYNAME='Alignment' TYPE='ptValuesList' DESCRIPTION='Specifies the alignment of the header.'/>
+		<ITEM ID='59' NAME='subTitle_x_offset' DISPLAYNAME='X Offset' TYPE='ptInteger' DESCRIPTION='Specifies the X offset of the header text.'/>
+		<ITEM ID='60' NAME='subTitle_y_offset' DISPLAYNAME='Y Offset' TYPE='ptInteger' DESCRIPTION='Specifies the Y offset of the header text.'/>
+
+		<ITEM ID='70' NAME='Title Style' DISPLAYNAME='Title Properties' TYPE='ptButton' DESCRIPTION='Title Properties'/>
+		<ITEM ID='71' NAME='title' DISPLAYNAME='Text' TYPE='ptText' DESCRIPTION='Specifies the text of the title.'/>
+		<ITEM ID='72' NAME='title_font' DISPLAYNAME='Font Name' TYPE='ptFont' DESCRIPTION='Specifies the font name.'/>
+		<ITEM ID='73' NAME='title_color' DISPLAYNAME='Font Color' TYPE='ptColor' DESCRIPTION='Specifies the font color.'/>
+		<ITEM ID='74' NAME='title_size' DISPLAYNAME='Font Size' TYPE='ptInteger' DESCRIPTION='Specifies the font size.'/>
+		<ITEM ID='75' NAME='title_bold' DISPLAYNAME='Bold' TYPE='ptBoolean' DESCRIPTION='Specifies whether uses bold font style.'/>
+		<ITEM ID='76' NAME='title_italic' DISPLAYNAME='Italic' TYPE='ptBoolean' DESCRIPTION='Specifies whether uses italic font style.'/>
+		<ITEM ID='77' NAME='title_underline' DISPLAYNAME='Underline' TYPE='ptBoolean' DESCRIPTION='Specifies whether uses underline font style.'/>
+		<ITEM ID='78' NAME='title_align' DISPLAYNAME='Alignment' TYPE='ptValuesList' DESCRIPTION='Specifies the alignment of the title.'/>
+		<ITEM ID='79' NAME='title_x_offset' DISPLAYNAME='X Offset' TYPE='ptInteger' DESCRIPTION='Specifies the X offset of the title text.'/>
+		<ITEM ID='80' NAME='title_y_offset' DISPLAYNAME='Y Offset' TYPE='ptInteger' DESCRIPTION='Specifies the Y offset of the title text.'/>
+
+		<ITEM ID='90' NAME='Menu Style' DISPLAYNAME='Item Properties' TYPE='ptButton' DESCRIPTION='Item Properties'/>
+		<ITEM ID='91' NAME='name' DISPLAYNAME='Text' TYPE='ptText' DESCRIPTION='Specifies the text of the menu item.'/>
+		<ITEM ID='92' NAME='menu_font' DISPLAYNAME='Font Name' TYPE='ptFont' DESCRIPTION='Specifies the font name.'/>
+		<ITEM ID='93' NAME='menu_color' DISPLAYNAME='Font Color' TYPE='ptColor' DESCRIPTION='Specifies the font color.'/>
+		<ITEM ID='94' NAME='menu_size' DISPLAYNAME='Font Size' TYPE='ptInteger' DESCRIPTION='Specifies the font size.'/>
+		<ITEM ID='95' NAME='menu_bold' DISPLAYNAME='Bold' TYPE='ptBoolean' DESCRIPTION='Specifies whether uses bold font style.'/>
+		<ITEM ID='96' NAME='menu_italic' DISPLAYNAME='Italic' TYPE='ptBoolean' DESCRIPTION='Specifies whether uses italic font style.'/>
+		<ITEM ID='97' NAME='menu_underline' DISPLAYNAME='Underline' TYPE='ptBoolean' DESCRIPTION='Specifies whether uses underline font style.'/>
+		<ITEM ID='98' NAME='menu_align' DISPLAYNAME='Alignment' TYPE='ptValuesList' DESCRIPTION='Specifies the alignment of the menu item text.'/>
+		<ITEM ID='99' NAME='menu_bgcolor' DISPLAYNAME='Background Color' TYPE='ptColor' DESCRIPTION='Specifies the background color of the menu item.'/>
+
+		<ITEM ID='100' NAME='bar_color' DISPLAYNAME='Header Background Color' TYPE='ptColor' DESCRIPTION='Specifies the background color of the header.'/>
+		<ITEM ID='101' NAME='image' DISPLAYNAME='Image' TYPE='ptTextButton' DESCRIPTION='Specifies the title image of the menu item.'/>
+
+	</ATTRIBUTE_DEF>
+
+	<PROPERTY_DEF>
+		<ITEM ID='1' NAME='width' DISPLAYNAME='Item Width' TYPE='ptInteger' DESCRIPTION='Specifies the width of menu item.'/>
+		<ITEM ID='2' NAME='height' DISPLAYNAME='Item Height' TYPE='ptInteger' DESCRIPTION='Specifies the height of menu item.'/>
+		<ITEM ID='3' NAME='spacing' DISPLAYNAME='Item Spacing' TYPE='ptInteger' DESCRIPTION='Specifies the spacing of menu item.'/>
+		<ITEM ID='4' NAME='font' DISPLAYNAME='Item Font Name' TYPE='ptFont' DESCRIPTION='Specifies the font name.'/>
+		<ITEM ID='5' NAME='fontSize' DISPLAYNAME='Item Font Size' TYPE='ptInteger' DESCRIPTION='Specifies the font size.'/>
+		<ITEM ID='6' NAME='fontColor' DISPLAYNAME='Item Font Color' TYPE='ptColor' DESCRIPTION='Specifies the font color.'/>
+		<ITEM ID='7' NAME='fontBold' DISPLAYNAME='Item Bold' TYPE='ptBoolean' DESCRIPTION='Specifies whether uses bold font style.'/>
+		<ITEM ID='8' NAME='align' DISPLAYNAME='Item Alignment' TYPE='ptValuesList' DESCRIPTION='Specifies the alignment of the text.'/>
+		<ITEM ID='9' NAME='xOffset' DISPLAYNAME='Text X Offset' TYPE='ptInteger' DESCRIPTION='Specifies the X offset of the text.'/>
+		<ITEM ID='10' NAME='yOffset' DISPLAYNAME='Text Y Offset' TYPE='ptInteger' DESCRIPTION='Specifies the Y offset of the text.'/>
+		<ITEM ID='11' NAME='horizontal' DISPLAYNAME='Horizontal' TYPE='ptBoolean' DESCRIPTION='Specifies whether the menu is displayed horizontally.'/>
+		<ITEM ID='12' NAME='font_overcolor' DISPLAYNAME='Hot Font Color' TYPE='ptColor' DESCRIPTION='Specifies the font color when the mouse hovers.'/>
+		<ITEM ID='13' NAME='arrow_color' DISPLAYNAME='Arrow Color' TYPE='ptColor' DESCRIPTION='Specifies the color of the arrow.'/>
+		<ITEM ID='14' NAME='menu_color' DISPLAYNAME='Background Color' TYPE='ptColor' DESCRIPTION='Specifies the background color of the menu item.'/>
+		<ITEM ID='15' NAME='menu_overColor' DISPLAYNAME='Hot Background Color' TYPE='ptColor' DESCRIPTION='Specifies the background color when mouse hovers.'/>
+		<ITEM ID='16' NAME='sound' DISPLAYNAME='Sound Effect' TYPE='ptTextButton' DESCRIPTION='Specifies the sound effect of the menu item.'/>
+		<ITEM ID='17' NAME='embedFont' DISPLAYNAME='Embedded Font' TYPE='ptBoolean' DESCRIPTION='Specifies whether uses embeded font.'/>
+		<ITEM ID='18' NAME='bar_color' DISPLAYNAME='Underline Color' TYPE='ptColor' DESCRIPTION='Specifies the color of the underline displayed when the mouse hovers.'/>
+		<ITEM ID='19' NAME='arrow_bgcolor' DISPLAYNAME='Arrow Background Color' TYPE='ptColor' DESCRIPTION='Specifies the background color of the arrow.'/>
+		<ITEM ID='20' NAME='menu_alpha' DISPLAYNAME='Transparence' TYPE='ptInteger' DESCRIPTION='Specifies the transparence of the menu item.'/>
+		<ITEM ID='21' NAME='roll_interval' DISPLAYNAME='Animation Speed' TYPE='ptInteger' DESCRIPTION='Specifies the openning speed of the menu item.'/>
+		<ITEM ID='22' NAME='fontItalic' DISPLAYNAME='Item Italic' TYPE='ptBoolean' DESCRIPTION='Specifies whether uses italic font.'/>
+		<ITEM ID='23' NAME='hasHBar' DISPLAYNAME='HasHorizontalBar' TYPE='ptBoolean' DESCRIPTION='Specifies whether the menu uses square corners.'/>
+ 		<ITEM ID='24' NAME='barLength' DISPLAYNAME='BarLength' TYPE='ptInteger' DESCRIPTION='Specifies the length of the horizontal bar.'/>
+ 		<ITEM ID='25' NAME='menu_bordercolor' DISPLAYNAME='Border Color' TYPE='ptColor' DESCRIPTION='Specifies the border color of the menu item.'/>
+ 		<ITEM ID='26' NAME='mask_alpha' DISPLAYNAME='Mask Transparence' TYPE='ptInteger' DESCRIPTION='Specifies the mask transparence of the menu item.'/>
+ 		<ITEM ID='27' NAME='mask_height' DISPLAYNAME='Mask Height' TYPE='ptInteger' DESCRIPTION='Specifies the height of the mask.'/>
+ 		<ITEM ID='28' NAME='mask_top' DISPLAYNAME='Mask Top' TYPE='ptInteger' DESCRIPTION='Specifies the Y offset of the mask.'/>
+ 		<ITEM ID='29' NAME='mask_left' DISPLAYNAME='Mask X Offset' TYPE='ptInteger' DESCRIPTION='Specifies the X offset of the mask.'/>
+ 		<ITEM ID='30' NAME='bg_ImageUp' DISPLAYNAME='Text Under Image' TYPE='ptBoolean' DESCRIPTION='Specifies whether the image is displayed under the text.'/>
+ 		<ITEM ID='31' NAME='title_bgAlpha' DISPLAYNAME='Text Background Transparence' TYPE='ptInteger' DESCRIPTION='Specifies the transparence of the background color of the text.'/>
+ 		<ITEM ID='32' NAME='title_highlight' DISPLAYNAME='3D Effect' TYPE='ptBoolean' DESCRIPTION='Specifies whether uses 3D effect.'/>
+ 		<ITEM ID='33' NAME='image_height' DISPLAYNAME='Image Height' TYPE='ptInteger' DESCRIPTION='Specifies the height of the image.'/>
+ 		<ITEM ID='34' NAME='title_move' DISPLAYNAME='Animation' TYPE='ptBoolean' DESCRIPTION='Specifies whether the menu item animates when the mouse hovers.'/>
+ 		<ITEM ID='35' NAME='hasVBar' DISPLAYNAME='HasVerticalBar' TYPE='ptBoolean' DESCRIPTION='Specifies whether the menu uses square corners.'/>
+ 		<ITEM ID='36' NAME='point_color' DISPLAYNAME='Splitter Color' TYPE='ptColor' DESCRIPTION='Specifies the splitter color of the menu.'/>
+ 		<ITEM ID='37' NAME='shadow' DISPLAYNAME='Text Shadow' TYPE='ptBoolean' DESCRIPTION='Specifies whether the text of the menu item has a shadow.'/>
+ 		<ITEM ID='38' NAME='shadow_color' DISPLAYNAME='Shadow Color' TYPE='ptColor' DESCRIPTION='Specifies the shadow color of the text.'/>
+		<ITEM ID='39' NAME='shadow_overcolor' DISPLAYNAME='Hot Shadow Color' TYPE='ptColor' DESCRIPTION='Specifies the shadow color of the text when the mouse hovers.'/>
+ 		<ITEM ID='250' NAME='block_color' DISPLAYNAME='Dot Color' TYPE='ptColor' DESCRIPTION='Specifies the dot color of the menu item.'/>
+ 		<ITEM ID='251' NAME='menu_gradient' DISPLAYNAME='Gradient' TYPE='ptBoolean' DESCRIPTION='Specifies whether uses gradient effect.'/>
+ 		<ITEM ID='252' NAME='menu_overgradient' DISPLAYNAME='Hot Gradient' TYPE='ptBoolean' DESCRIPTION='Specifies whether uses gradient effect when the mouse hovers.'/>
+
+ 		<ITEM ID='260' NAME='main_color' DISPLAYNAME='Background Color' TYPE='ptColor' DESCRIPTION='Specifies the background color of the main menu item.'/>
+ 		<ITEM ID='261' NAME='main_font_color' DISPLAYNAME='Font Color' TYPE='ptColor' DESCRIPTION='Specifies the font color.'/>
+		<ITEM ID='262' NAME='main_over_color' DISPLAYNAME='Hot Background Color' TYPE='ptColor' DESCRIPTION='Specifies the background color when the mouse hovers.'/>
+ 		<ITEM ID='263' NAME='main_over_fontcolor' DISPLAYNAME='Hot Font Color' TYPE='ptColor' DESCRIPTION='Specifies the font color when the mouse hovers.'/>
+ 		<ITEM ID='264' NAME='main_border_color' DISPLAYNAME='Border Color' TYPE='ptColor' DESCRIPTION='Specifies the border color.'/>
+ 		<ITEM ID='265' NAME='main_over_border_color' DISPLAYNAME='Hot Border Color' TYPE='ptColor' DESCRIPTION='Specifies the border color when the mouse hovers.'/>
+		<ITEM ID='266' NAME='main_open_color' DISPLAYNAME='Highlight Background Color' TYPE='ptColor' DESCRIPTION='Specifies the background color when the menu is highlighted.'/>
+ 		<ITEM ID='267' NAME='sub_color' DISPLAYNAME='Background Color' TYPE='ptColor' DESCRIPTION='Specifies the background color of the sub menu item.'/>
+ 		<ITEM ID='268' NAME='sub_font_color' DISPLAYNAME='Font Color' TYPE='ptColor' DESCRIPTION='Specifies the font color.'/>
+ 		<ITEM ID='269' NAME='sub_over_color' DISPLAYNAME='Hot Background Color' TYPE='ptColor' DESCRIPTION='Specifies the background color when the mouse hovers.'/>
+		<ITEM ID='270' NAME='sub_over_fontcolor' DISPLAYNAME='Hot Font Color' TYPE='ptColor' DESCRIPTION='Specifies the font color when the mouse hovers.'/>
+ 		<ITEM ID='271' NAME='sub_border_color' DISPLAYNAME='Border Color' TYPE='ptColor' DESCRIPTION='Specifies the border color.'/>
+ 		<ITEM ID='272' NAME='sub_over_border_color' DISPLAYNAME='Hot Border Color' TYPE='ptColor' DESCRIPTION='Specifies the border color when the mouse hovers.'/>
+ 		<ITEM ID='273' NAME='sub_click_color' DISPLAYNAME='Highlight Background Color' TYPE='ptColor' DESCRIPTION='Specifies the background color when the menu is highlighted.'/>
+		<ITEM ID='274' NAME='sub_click_fontcolor' DISPLAYNAME='Highlight Font Color' TYPE='ptColor' DESCRIPTION='Specifies the font color when the menu is highlighed.'/>
+ 		<ITEM ID='275' NAME='arrow_over_color' DISPLAYNAME='Hot Arrow Color' TYPE='ptColor' DESCRIPTION='Specifies the color of the arrow when the mouse hovers.'/>
+ 		<ITEM ID='276' NAME='arrow_open_color' DISPLAYNAME='Highlight Arrow Color' TYPE='ptColor' DESCRIPTION='Specifies the Color of the arrow when the menu is highlighted.'/>
+ 		<ITEM ID='280' NAME='Item Size' DISPLAYNAME='Size Properties' TYPE='ptButton' DESCRIPTION='Contains the size properties of menu items.'/>
+ 		<ITEM ID='281' NAME='Item Font' DISPLAYNAME='Font Properties' TYPE='ptButton' DESCRIPTION='Contains the font properties of menu items.'/>
+ 		<ITEM ID='282' NAME='Main Color' DISPLAYNAME='Main Item Color Properties' TYPE='ptButton' DESCRIPTION='Contains the color properties of main menu items.'/>
+ 		<ITEM ID='283' NAME='Sub Color' DISPLAYNAME='Sub Item Color Properties' TYPE='ptButton' DESCRIPTION='Contains the color properties of sub menu items.'/>
+		<ITEM ID='284' NAME='Arrow Color' DISPLAYNAME='Arrow Color Properties' TYPE='ptButton' DESCRIPTION='Contains the color properties of the arrow.'/>
+
+		<ITEM ID='285' NAME='main_font' DISPLAYNAME='Main Font Name' TYPE='ptFont' DESCRIPTION='Specifies the font name.'/>
+		<ITEM ID='286' NAME='main_fontsize' DISPLAYNAME='Main Font Size' TYPE='ptInteger' DESCRIPTION='Specifies the font size.'/>
+		<ITEM ID='287' NAME='main_onFontColor' DISPLAYNAME='Main Hot Font Color' TYPE='ptColor' DESCRIPTION='Specifies the font color when the mouse hovers.'/>
+		<ITEM ID='288' NAME='main_offFontColor' DISPLAYNAME='Main Font Color' TYPE='ptColor' DESCRIPTION='Specifies the font color.'/>
+		<ITEM ID='289' NAME='sub_font' DISPLAYNAME='Sub Font Name' TYPE='ptFont' DESCRIPTION='Specifies the font name.'/>
+		<ITEM ID='290' NAME='sub_fontsize' DISPLAYNAME='Sub Font Size' TYPE='ptInteger' DESCRIPTION='Specifies the font size.'/>
+		<ITEM ID='291' NAME='sub_onFontColor' DISPLAYNAME='Sub Hot Font Color' TYPE='ptColor' DESCRIPTION='Specifies the font color when the mouse hovers.'/>
+		<ITEM ID='292' NAME='sep_visible' DISPLAYNAME='Separator' TYPE='ptBoolean' DESCRIPTION='Specifies whether a separator is displayed between menu items.'/>
+		<ITEM ID='293' NAME='disappeartime' DISPLAYNAME='Disappear Time' TYPE='ptInteger' DESCRIPTION='Specifies the delay time before the sub menu disappears when the mouse leaves.'/>
+		<ITEM ID='294' NAME='ShowSubStyle' DISPLAYNAME='Popup Sub Menu' TYPE='ptValuesList' DESCRIPTION='Specifies the sub menu appears when the mouse is clicked or hovers.'/>
+		<ITEM ID='295' NAME='sub_offFontColor' DISPLAYNAME='Sub Font Color' TYPE='ptColor' DESCRIPTION='Specifies the font color.'/>
+		<ITEM ID='296' NAME='menu_width' DISPLAYNAME='Menu Width' TYPE='ptInteger' DESCRIPTION='Specifies the width of the menu.'/>
+		<ITEM ID='450' NAME='main_bold' DISPLAYNAME='Main Bold' TYPE='ptBoolean' DESCRIPTION='Specifies whether uses bold font style on main menu items.'/>
+		<ITEM ID='451' NAME='sub_bold' DISPLAYNAME='Sub Bold' TYPE='ptBoolean' DESCRIPTION='Specifies whether uses bold font sytle on sub items.'/>
+		<ITEM ID='452' NAME='fadeTime' DISPLAYNAME='Fade Time' TYPE='ptInteger' DESCRIPTION='Specifies the time of fading effect.'/>
+		<ITEM ID='453' NAME='lineWidth' DISPLAYNAME='Separator Width' TYPE='ptInteger' DESCRIPTION='Specifies the width of the separator.'/>
+		<ITEM ID='454' NAME='main_y_padding' DISPLAYNAME='Main Y Padding' TYPE='ptInteger' DESCRIPTION='Specifies the Y padding of the main menu.'/>
+		<ITEM ID='455' NAME='sub_x_padding' DISPLAYNAME='Sub X Padding' TYPE='ptInteger' DESCRIPTION='Specifies the X padding of the sub menu.'/>
+		<ITEM ID='456' NAME='sub_y_padding' DISPLAYNAME='Sub Y Padding' TYPE='ptInteger' DESCRIPTION='Specifies the Y padding of the sub menu.'/>
+
+		<ITEM ID='40' NAME='Menu Property' DISPLAYNAME='General Properties' TYPE='ptButton' DESCRIPTION='General Properties'/>
+		<ITEM ID='41' NAME='menuType' DISPLAYNAME='Menu Type' TYPE='ptValuesList' DESCRIPTION='Specifies whether the menu is displayed horizontally or vertically.'/>
+		<ITEM ID='42' NAME='CreateHorizBar' DISPLAYNAME='Extra Bar' TYPE='ptBoolean' DESCRIPTION='Specifies whether uses an extra bar to fill the rest space.'/>
+		<ITEM ID='43' NAME='menuShowChild' DISPLAYNAME='Popup Sub Menu' TYPE='ptValuesList' DESCRIPTION='Specifies the sub menu appears when the mouse is clicked or hovers.'/>
+		<ITEM ID='44' NAME='itemWidth' DISPLAYNAME='Item Width' TYPE='ptInteger' DESCRIPTION='Specifies the width of the menu item.'/>
+		<ITEM ID='45' NAME='itemHeight' DISPLAYNAME='Item Height' TYPE='ptInteger' DESCRIPTION='Specifies the height of the menu item.'/>
+		<ITEM ID='46' NAME='menuXOffset' DISPLAYNAME='Popup X Offset' TYPE='ptInteger' DESCRIPTION='Specifies the X offset of the popup menu.'/>
+		<ITEM ID='47' NAME='menuYOffset' DISPLAYNAME='Popup Y Offset' TYPE='ptInteger' DESCRIPTION='Specifies the Y offset of the popup menu.'/>
+		<ITEM ID='48' NAME='upBgcolor' DISPLAYNAME='Background Color' TYPE='ptColor' DESCRIPTION='Specifies the background color if there is no gradient effect.'/>
+		<ITEM ID='49' NAME='overBgcolor' DISPLAYNAME='Hot Background Color' TYPE='ptColor' DESCRIPTION='Specifies the background color when the mouse hovers.'/>
+		<ITEM ID='50' NAME='downBgcolor' DISPLAYNAME='Highlight Background Color' TYPE='ptColor' DESCRIPTION='Specifies the background color when the mouse is clicked.'/>
+		<ITEM ID='51' NAME='autoSizeWidth' DISPLAYNAME='Auto Width' TYPE='ptBoolean' DESCRIPTION='Specifies whether the menu width is adjusted automatically.'/>
+
+		<ITEM ID='60' NAME='Gradient' DISPLAYNAME='Gradient Properties' TYPE='ptButton' DESCRIPTION='Gradient Properties'/>
+		<ITEM ID='61' NAME='isGradient' DISPLAYNAME='Gradient' TYPE='ptBoolean' DESCRIPTION='Specifies whether the menu is displayed in gradient effect.'/>
+		<ITEM ID='62' NAME='g_up_firstColor' DISPLAYNAME='Start Color' TYPE='ptColor' DESCRIPTION='Specifies the start color of the gradient effect.'/>
+		<ITEM ID='63' NAME='g_up_secondColor' DISPLAYNAME='End Color' TYPE='ptColor' DESCRIPTION='Specifies the end color of the gradient effect.'/>
+		<ITEM ID='64' NAME='g_over_firstColor' DISPLAYNAME='Hot Start Color' TYPE='ptColor' DESCRIPTION='Specifies the start color of the gradient effect when the mouse hovers.'/>
+		<ITEM ID='65' NAME='g_over_secondColor' DISPLAYNAME='Hot End Color' TYPE='ptColor' DESCRIPTION='Specifies the end color of the gradient effect when the mouse hovers.'/>
+		<ITEM ID='66' NAME='g_down_firstColor' DISPLAYNAME='Highlight Start Color' TYPE='ptColor' DESCRIPTION='Specifies the start color of the gradient effect when the mouse is clicked.'/>
+		<ITEM ID='67' NAME='g_down_secondColor' DISPLAYNAME='Highlight End Color' TYPE='ptColor' DESCRIPTION='Specifies the end color of the gradient effect when the mouse is clicked.'/>
+
+		<ITEM ID='70' NAME='Menu Font' DISPLAYNAME='Font Properties' TYPE='ptButton' DESCRIPTION='Specifies the font properties.'/>
+		<ITEM ID='71' NAME='upFontColor' DISPLAYNAME='Font Color' TYPE='ptColor' DESCRIPTION='Specifies the font color.'/>
+		<ITEM ID='72' NAME='overFontColor' DISPLAYNAME='Hot Font Color' TYPE='ptColor' DESCRIPTION='Specifies the font color when the mouse hovers.'/>
+		<ITEM ID='73' NAME='downFontColor' DISPLAYNAME='Highlight Font Color' TYPE='ptColor' DESCRIPTION='Specifies the font color when the mouse is clicked.'/>
+		<ITEM ID='74' NAME='txtFont' DISPLAYNAME='Font Name' TYPE='ptFont' DESCRIPTION='Specifies the font name.'/>
+		<ITEM ID='75' NAME='txtSize' DISPLAYNAME='Font Size' TYPE='ptInteger' DESCRIPTION='Specifies the font size.'/>
+		<ITEM ID='76' NAME='txtAlign' DISPLAYNAME='Alignment' TYPE='ptValuesList' DESCRIPTION='Specifies the alignment of the text.'/>
+		<ITEM ID='77' NAME='itemTextXOffSet' DISPLAYNAME='Left Padding' TYPE='ptInteger' DESCRIPTION='Specifies the left padding of the text.'/>
+		<ITEM ID='78' NAME='rightPadding' DISPLAYNAME='Right Padding' TYPE='ptInteger' DESCRIPTION='Specifies the right padding of the text.'/>
+		<ITEM ID='79' NAME='isBold' DISPLAYNAME='Bold' TYPE='ptBoolean' DESCRIPTION='Specifies whether the text is bold.'/>
+		<ITEM ID='80' NAME='isItalic' DISPLAYNAME='Italic' TYPE='ptBoolean' DESCRIPTION='Specifies whether the text is italic.'/>
+
+		<ITEM ID='90' NAME='SepareteLine Style' DISPLAYNAME='Sub Separator Properties' TYPE='ptButton' DESCRIPTION='Separator properties of sub menu items.'/>
+		<ITEM ID='91' NAME='sepline' DISPLAYNAME='Separator' TYPE='ptBoolean' DESCRIPTION='Specifies whether displays a separator between each sub menu item.'/>
+		<ITEM ID='92' NAME='seplineColor' DISPLAYNAME='Color' TYPE='ptColor' DESCRIPTION='Specifies the color of the separator.'/>
+		<ITEM ID='93' NAME='seplineSize' DISPLAYNAME='Height' TYPE='ptInteger' DESCRIPTION='Specifies the height of the separator.'/>
+
+		<ITEM ID='100' NAME='Border Style' DISPLAYNAME='Border Properties' TYPE='ptButton' DESCRIPTION='Border Properties'/>
+		<ITEM ID='101' NAME='borderState' DISPLAYNAME='Border' TYPE='ptBoolean' DESCRIPTION='Specifies whether displays a menu border.'/>
+		<ITEM ID='102' NAME='borderColor' DISPLAYNAME='Color' TYPE='ptColor' DESCRIPTION='Specifies the color of the border.'/>
+		<ITEM ID='103' NAME='borderSize' DISPLAYNAME='Size' TYPE='ptInteger' DESCRIPTION='Specifies the size of the border.'/>
+		<ITEM ID='104' NAME='borderEmboss' DISPLAYNAME='3D Effect' TYPE='ptBoolean' DESCRIPTION='Specifies whether displays a 3D border.'/>
+		<ITEM ID='105' NAME='embossDir' DISPLAYNAME='3D Direction' TYPE='ptValuesList' DESCRIPTION='Specifies the direction of 3D effect.'/>
+
+		<ITEM ID='110' NAME='Shadow Style' DISPLAYNAME='Shadow Properties' TYPE='ptButton' DESCRIPTION='Shadow Properties'/>
+		<ITEM ID='111' NAME='shadowAppear' DISPLAYNAME='Shadow' TYPE='ptBoolean' DESCRIPTION='Specifies whether displays a shadow.'/>
+		<ITEM ID='112' NAME='shadowOffset' DISPLAYNAME='Offset' TYPE='ptInteger' DESCRIPTION='Specifies the offset between the shadow and menu.'/>
+
+		<ITEM ID='120' NAME='Fade Options' DISPLAYNAME='Fading Properties' TYPE='ptButton' DESCRIPTION='Fading Properties'/>
+		<ITEM ID='121' NAME='menuFade' DISPLAYNAME='Fading' TYPE='ptBoolean' DESCRIPTION='Specifies whether uses the fading effect.'/>
+		<ITEM ID='122' NAME='fadeRate' DISPLAYNAME='Speed' TYPE='ptInteger' DESCRIPTION='Specifies the speed of fading effect.'/>
+
+		<ITEM ID='130' NAME='Auto Hide' DISPLAYNAME='Popup Menu Disappearing Properties' TYPE='ptButton' DESCRIPTION='Popup Menu Dispearing Properties'/>
+		<ITEM ID='131' NAME='collapseTimeBool' DISPLAYNAME='Auto Disappearing' TYPE='ptBoolean' DESCRIPTION='Specifies whether the sub menu disappears automatically.'/>
+		<ITEM ID='132' NAME='collapseTime' DISPLAYNAME='Delay Time (ms)' TYPE='ptInteger' DESCRIPTION='Specifies the delay time before the popup menu disappears when the mouse leaves, in milliseconds.'/>
+		<ITEM ID='133' NAME='menuPopDir' DISPLAYNAME='Popup Direction' TYPE='ptValuesList' DESCRIPTION='Specifies the popup direction of the sub menu.'/>
+		<ITEM ID='134' NAME='limitX' DISPLAYNAME='Right Boundary' TYPE='ptInteger' DESCRIPTION='Specifies the right boundary when displays a sub menu.'/>
+		<ITEM ID='135' NAME='limitY' DISPLAYNAME='Bottom Boundary' TYPE='ptInteger' DESCRIPTION='Specifies the bottom boundary when displays a sub menu.'/>
+		<ITEM ID='136' NAME='sound' DISPLAYNAME='Sound' TYPE='ptTextButton' DESCRIPTION='Specifies the sound effect of the menu.'/>
+		<ITEM ID='137' NAME='embedFont' DISPLAYNAME='Embedded Font' TYPE='ptBoolean' DESCRIPTION='Specifies whether the menu uses embeded font.'/>
+
+		<ITEM ID='140' NAME='flash width' DISPLAYNAME='Flash Width' TYPE='ptInteger' DESCRIPTION='Specifies the width of Flash.'/>
+		<ITEM ID='141' NAME='flash height' DISPLAYNAME='Flash Height' TYPE='ptInteger' DESCRIPTION='Specifies the height of Flash.'/>
+		<ITEM ID='142' NAME='autosize' DISPLAYNAME='Auto Size' TYPE='ptBoolean' DESCRIPTION='Specifies whether calculates the size of Flash automatically.'/>
+		<ITEM ID='143' NAME='page bgColor' DISPLAYNAME='Web Page Background Color' TYPE='ptColor' DESCRIPTION='Specifies the background color of the web page.'/>
+		<ITEM ID='144' NAME='flash bgColor' DISPLAYNAME='Flash Background Color' TYPE='ptColor' DESCRIPTION='Specifies the background color of the Flash menu.'/>
+		<ITEM ID='145' NAME='transparent' DISPLAYNAME='Transparent' TYPE='ptBoolean' DESCRIPTION='Specifies whether the Flash menu is transparent.'/>
+
+		<ITEM ID='150' NAME='usexml' DISPLAYNAME='External XML Configuration' TYPE='ptBoolean' DESCRIPTION='Specifies whether reads configuration data from an exnternal XML file dynamically.'/>
+
+		<ITEM ID='160' NAME='CaptionStyle' DISPLAYNAME='Text Properties' TYPE='ptButton' DESCRIPTION='Text Properties'/>
+		<ITEM ID='161' NAME='Align' DISPLAYNAME='Alignment' TYPE='ptValuesList' DESCRIPTION='Specifies the alignment of the text.'/>
+		<ITEM ID='162' NAME='CaptionColor' DISPLAYNAME='Color' TYPE='ptColor' DESCRIPTION='Specifies the color of the text.'/>
+		<ITEM ID='163' NAME='CaptionFocusColor' DISPLAYNAME='Hot Color' TYPE='ptColor' DESCRIPTION='Specifies the text color when the mouse hovers.'/>
+		<ITEM ID='164' NAME='CaptionFontName' DISPLAYNAME='Font Name' TYPE='ptText' DESCRIPTION='Specifies the font name.'/>
+		<ITEM ID='165' NAME='CaptionFontSize' DISPLAYNAME='Font Size' TYPE='ptInteger' DESCRIPTION='Specifies the font size.'/>
+		<ITEM ID='166' NAME='CaptionFontStyle' DISPLAYNAME='Font Style' TYPE='ptValuesList' DESCRIPTION='Specifies the font styles.'/>
+		<ITEM ID='167' NAME='CaptionsAbove' DISPLAYNAME='Text Above Image' TYPE='ptBoolean' DESCRIPTION='Specifies whether the text is displayed above the image.'/>
+		<ITEM ID='168' NAME='Accelerate' DISPLAYNAME='Accelerate' TYPE='ptBoolean' DESCRIPTION='Specifies whether to accelerate the speed of the image scrollig according to the mouse position.'/>
+		<ITEM ID='169' NAME='Spacing' DISPLAYNAME='Spacing' TYPE='ptInteger' DESCRIPTION='Specifies the spacing between menu items.'/>
+		<ITEM ID='170' NAME='ChangeDirection' DISPLAYNAME='Direction Switching' TYPE='ptBoolean' DESCRIPTION='Specifies whether the scroll direction changes depends on the mouse position.'/>
+		<ITEM ID='171' NAME='ClickDown' DISPLAYNAME='Button Style' TYPE='ptBoolean' DESCRIPTION='Specifies whether the menu item moves down to provide a button like visual feedback when the mouse is clicked.'/>
+		<ITEM ID='172' NAME='DefaultTarget' DISPLAYNAME='Default Target' TYPE='ptText' DESCRIPTION='Specifies the default target name.'/>
+
+		<ITEM ID='180' NAME='On Focus' DISPLAYNAME='Hot Properties' TYPE='ptButton' DESCRIPTION='Hot Properties'/>
+		<ITEM ID='181' NAME='BorderColor' DISPLAYNAME='Border Color' TYPE='ptColor' DESCRIPTION='Specifies the border color when the mouse hovers.'/>
+		<ITEM ID='182' NAME='BorderWidth' DISPLAYNAME='Border Width' TYPE='ptInteger' DESCRIPTION='Specifies the border width when the mouse hovers.'/>
+		<ITEM ID='183' NAME='FocusTint' DISPLAYNAME='Mask' TYPE='ptBoolean' DESCRIPTION='Specifies whether displays a transparent mask over the menu item when the mouse hovers.'/>
+		<ITEM ID='184' NAME='TintColor' DISPLAYNAME='Mask Color' TYPE='ptColor' DESCRIPTION='Specifies the mask color of the menu item when the mouse hovers.'/>
+
+		<ITEM ID='190' NAME='Load Bar Style' DISPLAYNAME='Preloader Properties' TYPE='ptButton' DESCRIPTION='Preloader Properties'/>
+		<ITEM ID='191' NAME='LoadProgressBorderColor' DISPLAYNAME='Border Color' TYPE='ptColor' DESCRIPTION='Specifies the border color of the preloador bar.'/>
+		<ITEM ID='192' NAME='LoadProgressFillColor' DISPLAYNAME='Color' TYPE='ptColor' DESCRIPTION='Specifies the color of the preloader bar.'/>
+		<ITEM ID='193' NAME='LoadText' DISPLAYNAME='Text' TYPE='ptText' DESCRIPTION='Specifies the text of the preloader.'/>
+		<ITEM ID='194' NAME='LoadTextColor' DISPLAYNAME='Text Color' TYPE='ptColor' DESCRIPTION='Specifies the color of preloader text.'/>
+
+		<ITEM ID='200' NAME='Edge' DISPLAYNAME='Top/Bottom Border Properties' TYPE='ptButton' DESCRIPTION='Top/Bottom Border Properties'/>
+		<ITEM ID='201' NAME='ShowMasks' DISPLAYNAME='Gradient' TYPE='ptBoolean' DESCRIPTION='Specifies whether displays a gradient effect on the top/bottom border.'/>
+		<ITEM ID='202' NAME='MaskHeight' DISPLAYNAME='Height' TYPE='ptInteger' DESCRIPTION='Specifies the height of the gradient border.'/>
+		<ITEM ID='203' NAME='MaskColor' DISPLAYNAME='Color' TYPE='ptColor' DESCRIPTION='Specifies the color of the gradient border.'/>
+
+		<ITEM ID='210' NAME='Scroll Setting' DISPLAYNAME='Scrolling Properties' TYPE='ptButton' DESCRIPTION='Scrolling Properties'/>
+		<ITEM ID='211' NAME='ScrollAmount' DISPLAYNAME='Scrolling Amount' TYPE='ptInteger' DESCRIPTION='Specifies the offset of each movement.'/>
+		<ITEM ID='212' NAME='ScrollDelay' DISPLAYNAME='Scrolling Delay' TYPE='ptInteger' DESCRIPTION='Specifies the delay time between each movement, in milliseconds'/>
+		<ITEM ID='213' NAME='ScrollFromMouse' DISPLAYNAME='Scrolling Toward Mouse' TYPE='ptBoolean' DESCRIPTION='Specifies whether images move toward or backward to the mouse. This property will be ignored if Direction Switching is false.'/>
+
+		<ITEM ID='214' NAME='StartScrollFrom' DISPLAYNAME='Init Scrolling Direction' TYPE='ptValuesList' DESCRIPTION='Specifies the initial scrolling direction.'/>
+
+		<ITEM ID='300' NAME='Main Settings' DISPLAYNAME='Main Properties' TYPE='ptButton' DESCRIPTION='Main Properties'/>
+		<ITEM ID='301' NAME='Sub Settings' DISPLAYNAME='Sub Properties' TYPE='ptButton' DESCRIPTION='Sub Properties'/>
+		<ITEM ID='302' NAME='Focus Settings' DISPLAYNAME='Hot Properties' TYPE='ptButton' DESCRIPTION='Hot Properties'/>
+
+		<ITEM ID='303' NAME='MainAlign' DISPLAYNAME='Alignment' TYPE='ptValuesList' DESCRIPTION='Specifies the alignment of the text.'/>
+		<ITEM ID='304' NAME='MainBoderColor' DISPLAYNAME='Boder Color' TYPE='ptColor' DESCRIPTION='Specifies the border color.'/>
+		<ITEM ID='305' NAME='MainFillColor' DISPLAYNAME='Color' TYPE='ptColor' DESCRIPTION='Specifies the background color.'/>
+		<ITEM ID='306' NAME='CaptionGradient' DISPLAYNAME='Gradient' TYPE='ptBoolean' DESCRIPTION='Specifies whether uses gradient effect or not.'/>
+		<ITEM ID='307' NAME='MainFillGradientColor' DISPLAYNAME='End Color' TYPE='ptColor' DESCRIPTION='Specifies the end color of gradient, and the start color is the background color.'/>
+		<ITEM ID='308' NAME='CaptionFocusGradient' DISPLAYNAME='Hot Gradient' TYPE='ptBoolean' DESCRIPTION='Specifies whether uses gradient effect when the mouse hovers.'/>
+		<ITEM ID='309' NAME='MainFillFocusGradientColor' DISPLAYNAME='Hot End Color' TYPE='ptColor' DESCRIPTION='Specifies the end color of gradient when the mouse hovers, and the start color is the background color.'/>
+		<ITEM ID='310' NAME='MainFocusBold' DISPLAYNAME='Hot Bold' TYPE='ptBoolean' DESCRIPTION='Specifies whether uses bold font when the mouse hovers.'/>
+		<ITEM ID='311' NAME='MainFocusUnderline' DISPLAYNAME='Hot Underline' TYPE='ptBoolean' DESCRIPTION='Specifies whether uses underline font when the mouse hovers.'/>
+		<ITEM ID='312' NAME='MainGradientDirection' DISPLAYNAME='Gradient Direction' TYPE='ptValuesList' DESCRIPTION='Specifies the direction of gradient.'/>
+		<ITEM ID='313' NAME='MainTextColor' DISPLAYNAME='Text Color' TYPE='ptColor' DESCRIPTION='Specifies the text color.'/>
+		<ITEM ID='314' NAME='MainTextFocusColor' DISPLAYNAME='Hot Text Color' TYPE='ptColor' DESCRIPTION='Specifies the text color when the mouse hovers.'/>
+		<ITEM ID='315' NAME='MainTextPressColor' DISPLAYNAME='Pressed Text Color' TYPE='ptColor' DESCRIPTION='Specifies the text color when the mouse is pressed.'/>
+		<ITEM ID='316' NAME='MainFontName' DISPLAYNAME='Font Name' TYPE='ptFont' DESCRIPTION='Specifies the font name.'/>
+		<ITEM ID='317' NAME='MainFontSize' DISPLAYNAME='Font Size' TYPE='ptInteger' DESCRIPTION='Specifies the font size.'/>
+		<ITEM ID='318' NAME='MainFontStyle' DISPLAYNAME='Font Style' TYPE='ptValuesList' DESCRIPTION='Specifies the font style.'/>
+		<ITEM ID='319' NAME='CaptionHeight' DISPLAYNAME='Height' TYPE='ptInteger' DESCRIPTION='Specifies the height of menu item.'/>
+
+		<ITEM ID='320' NAME='ItemIndent' DISPLAYNAME='Indent' TYPE='ptInteger' DESCRIPTION='Specifies the X offset of the sub menu text.'/>
+		<ITEM ID='321' NAME='ItemTextColor' DISPLAYNAME='Text Color' TYPE='ptColor' DESCRIPTION='Specifies the text color.'/>
+		<ITEM ID='322' NAME='ItemTextFocusColor' DISPLAYNAME='Hot Text Color' TYPE='ptColor' DESCRIPTION='Specifies the text color when the mouse hovers.'/>
+		<ITEM ID='323' NAME='ItemTextPressColor' DISPLAYNAME='Pressed Text Color' TYPE='ptColor' DESCRIPTION='Specifies the text color when the mouse is pressed.'/>
+		<ITEM ID='324' NAME='ItemFontName' DISPLAYNAME='Font Name' TYPE='ptFont' DESCRIPTION='Specifies the font name.'/>
+		<ITEM ID='325' NAME='ItemFontSize' DISPLAYNAME='Font Size' TYPE='ptInteger' DESCRIPTION='Specifies the font size.'/>
+		<ITEM ID='326' NAME='ItemFontStyle' DISPLAYNAME='Font Style' TYPE='ptValuesList' DESCRIPTION='Specifies the font style.'/>
+		<ITEM ID='327' NAME='ItemFocusBold' DISPLAYNAME='Hot Bold' TYPE='ptBoolean' DESCRIPTION='Specifies whether uses bold font when the mouse hovers.'/>
+		<ITEM ID='328' NAME='ItemFocusUnderline' DISPLAYNAME='Hot Underline' TYPE='ptBoolean' DESCRIPTION='Specifies whether uses underline font when the mouse hovers.'/>
+		<ITEM ID='329' NAME='ItemHeight' DISPLAYNAME='Height' TYPE='ptInteger' DESCRIPTION='Specifies the height of the sub menu item.'/>
+
+		<ITEM ID='331' NAME='SelectorBorderColor' DISPLAYNAME='Hot Border Color' TYPE='ptColor' DESCRIPTION='Specifies the border color when the mouse hovers.'/>
+		<ITEM ID='332' NAME='SelectorBorderStyle' DISPLAYNAME='Hot Border Style' TYPE='ptValuesList' DESCRIPTION='Specifies the shape of the border when the mouse hovers.'/>
+		<ITEM ID='333' NAME='SelectorFillColor' DISPLAYNAME='Hot Color' TYPE='ptColor' DESCRIPTION='Specifies the color when the mouse hovers.'/>
+		<ITEM ID='334' NAME='SelectorGradient' DISPLAYNAME='Hot Gradient' TYPE='ptBoolean' DESCRIPTION='Specifies whether uses gradient effect when the mouse hovers.'/>
+		<ITEM ID='335' NAME='SelectorFillGradientColor' DISPLAYNAME='Hot Gradient End Color' TYPE='ptColor' DESCRIPTION='Specifies the end color of the gradient effect when the mouse hovers. The start color is Hot Color.'/>
+		<ITEM ID='336' NAME='SelectorGradientDirection' DISPLAYNAME='Hot Gradient Direction' TYPE='ptValuesList' DESCRIPTION='Specifies the direction of the gradient effect when the mouse hovers.'/>
+		<ITEM ID='337' NAME='ShowSelectorBorder' DISPLAYNAME='Show Hot Border' TYPE='ptBoolean' DESCRIPTION='Specifies whether the border of the menu item is displayed.'/>
+		<ITEM ID='338' NAME='ShowSelectorFill' DISPLAYNAME='Show Hot Color' TYPE='ptBoolean' DESCRIPTION='Specifies whether the fill color of the menu item is displayed.'/>
+
+		<ITEM ID='339' NAME='SelectedMain' DISPLAYNAME='Highlighted Main Item' TYPE='ptInteger' DESCRIPTION='Specifies the menu item that will be expanded initially.'/>
+		<ITEM ID='340' NAME='WordWrap' DISPLAYNAME='Word Wrap' TYPE='ptBoolean' DESCRIPTION='Specifies whether the text is wrapped or not.'/>
+		<ITEM ID='341' NAME='AnimationSpeed' DISPLAYNAME='Animation Speed' TYPE='ptValuesList' DESCRIPTION='Specifies the speed of expanding/collapsing animation.'/>
+		<ITEM ID='343' NAME='ArrowIndent' DISPLAYNAME='Arrow Indent' TYPE='ptInteger' DESCRIPTION='Specifies the X offset of the arrow.'/>
+		<ITEM ID='344' NAME='DefaultTarget' DISPLAYNAME='Default Target' TYPE='ptText' DESCRIPTION='Specifies the default target frame name.'/>
+		<ITEM ID='345' NAME='HoverDelay' DISPLAYNAME='Expanding Delay' TYPE='ptInteger' DESCRIPTION='Specifies how long will the menu item opens after the mouse hovers, in milliseconds. This value will be ignored if Hover Sensitive is false.'/>
+		<ITEM ID='346' NAME='HoverSensitive' DISPLAYNAME='Hover Sensitive' TYPE='ptBoolean' DESCRIPTION='Specifies whether the menu item opens when the mouse hovers.'/>
+		<ITEM ID='347' NAME='ShowArrow' DISPLAYNAME='Show Arrow' TYPE='ptBoolean' DESCRIPTION='Specifies whether the arrow is displayed.'/>
+		<ITEM ID='348' NAME='SoundMain' DISPLAYNAME='Main Sound Effect' TYPE='ptTextButton' DESCRIPTION='Specifies the sound when the mouse is clicked on the main menu.'/>
+		<ITEM ID='349' NAME='SoundItem' DISPLAYNAME='Sub Sound Effect' TYPE='ptTextButton' DESCRIPTION='Specifies the sound when the mouse is clicked on the sub menu.'/>
+
+		<ITEM ID='360' NAME='main_Font' DISPLAYNAME='Main Font Name' TYPE='ptFont' DESCRIPTION='Specifies the font name.'/>
+		<ITEM ID='361' NAME='main_FontSize' DISPLAYNAME='Main Font Size' TYPE='ptInteger' DESCRIPTION='Specifies the font size.'/>
+		<ITEM ID='362' NAME='main_FontColor' DISPLAYNAME='Main Font Color' TYPE='ptColor' DESCRIPTION='Specifies the font color.'/>
+		<ITEM ID='363' NAME='main_Style' DISPLAYNAME='Main Font Style' TYPE='ptValuesList' DESCRIPTION='Specifies the font style.'/>
+		<ITEM ID='364' NAME='main_Spacing' DISPLAYNAME='Main Spacing' TYPE='ptInteger' DESCRIPTION='Specifies the spacing between each menu item.'/>
+		<ITEM ID='365' NAME='mainSep_Color' DISPLAYNAME='Main Separator Color' TYPE='ptColor' DESCRIPTION='Specifies the color of the separator.'/>
+		<ITEM ID='366' NAME='mainSep_Alpha' DISPLAYNAME='Main Separator Transparence' TYPE='ptInteger' DESCRIPTION='Specifies the transparence of the separator.'/>
+		<ITEM ID='367' NAME='sub_Font' DISPLAYNAME='Sub Font Name' TYPE='ptFont' DESCRIPTION='Specifies the font name.'/>
+		<ITEM ID='368' NAME='sub_FontSize' DISPLAYNAME='Sub Font Size' TYPE='ptInteger' DESCRIPTION='Specifies the font size.'/>
+		<ITEM ID='369' NAME='sub_FontColor' DISPLAYNAME='Sub Font Color' TYPE='ptColor' DESCRIPTION='Specifies the font color.'/>
+		<ITEM ID='370' NAME='sub_Style' DISPLAYNAME='Sub Font Style' TYPE='ptValuesList' DESCRIPTION='Specifies the font style.'/>
+		<ITEM ID='371' NAME='subSep_Color' DISPLAYNAME='Sub Separator Color' TYPE='ptColor' DESCRIPTION='Specifies the color of the separator.'/>
+		<ITEM ID='372' NAME='subSep_Alpha' DISPLAYNAME='Sub Separator Transparence' TYPE='ptInteger' DESCRIPTION='Specifies the transparence of the separator.'/>
+		<ITEM ID='373' NAME='sub_OverBgColor' DISPLAYNAME='Sub Hot Background Color' TYPE='ptColor' DESCRIPTION='Specifies the background color of the sub menu item when the mouse hovers.'/>
+		<ITEM ID='374' NAME='menu_Width' DISPLAYNAME='Menu Width' TYPE='ptInteger' DESCRIPTION='Specifies the width of the menu item.'/>
+		<ITEM ID='375' NAME='menu_Color' DISPLAYNAME='Menu Color' TYPE='ptColor' DESCRIPTION='Specifies the color of the menu item.'/>
+
+		<ITEM ID='380' NAME='Text Style' DISPLAYNAME='Text Properties' TYPE='ptButton' DESCRIPTION='Text Properties'/>
+		<ITEM ID='381' NAME='Icons' DISPLAYNAME='Icons Properties' TYPE='ptButton' DESCRIPTION='Icon Properties'/>
+		<ITEM ID='382' NAME='Theme' DISPLAYNAME='Theme Properties' TYPE='ptButton' DESCRIPTION='Theme Properties'/>
+		<ITEM ID='383' NAME='row_height' DISPLAYNAME='row_height' TYPE='ptInteger' DESCRIPTION='Specifies the height of the row.'/>
+		<ITEM ID='384' NAME='font' DISPLAYNAME='Font Name' TYPE='ptFont' DESCRIPTION='Specifies the font name.'/>
+		<ITEM ID='385' NAME='fontSize' DISPLAYNAME='Font Size' TYPE='ptInteger' DESCRIPTION='Specifies the font size.'/>
+		<ITEM ID='386' NAME='fontItalic' DISPLAYNAME='Italic' TYPE='ptBoolean' DESCRIPTION='Specifies whether uses italic font.'/>
+		<ITEM ID='387' NAME='fontBold' DISPLAYNAME='Bold' TYPE='ptBoolean' DESCRIPTION='Specifies whether uses bold font.'/>
+		<ITEM ID='388' NAME='fontUnderline' DISPLAYNAME='Underline' TYPE='ptBoolean' DESCRIPTION='Specifies whether uses underline font.'/>
+		<ITEM ID='389' NAME='align' DISPLAYNAME='Alignment' TYPE='ptValuesList' DESCRIPTION='Specifies the alignment of the menu text.'/>
+		<ITEM ID='390' NAME='text_Indent' DISPLAYNAME='Indent' TYPE='ptInteger' DESCRIPTION='Specifies the indent value of the text.'/>
+		<ITEM ID='391' NAME='fontColor' DISPLAYNAME='Font Color' TYPE='ptColor' DESCRIPTION='Specifies the color of the font.'/>
+		<ITEM ID='392' NAME='font_overcolor' DISPLAYNAME='Hot Font Color' TYPE='ptColor' DESCRIPTION='Specifies the font color when the mouse hovers.'/>
+		<ITEM ID='393' NAME='font_selectedcolor' DISPLAYNAME='Highlight Font Color' TYPE='ptColor' DESCRIPTION='Specifies the font color when the menu item is selected.'/>
+
+		<ITEM ID='394' NAME='DefaultLeafIcon' DISPLAYNAME='Default Leaf Icon' TYPE='ptTextButton' DESCRIPTION='Specifies the icon of a leaf node.'/>
+		<ITEM ID='395' NAME='DisclosureClosedIcon' DISPLAYNAME='Disclosure Closed Icon' TYPE='ptTextButton' DESCRIPTION='Specifies the icon before a closed folder.'/>
+		<ITEM ID='396' NAME='DisclosureOpenIcon' DISPLAYNAME='Disclosure Open Icon' TYPE='ptTextButton' DESCRIPTION='Specifies the icon before an openned folder.'/>
+		<ITEM ID='397' NAME='FolderClosedIcon' DISPLAYNAME='Folder Closed Icon' TYPE='ptTextButton' DESCRIPTION='Specifies the icon of a closed folder.'/>
+		<ITEM ID='398' NAME='FolderOpenIcon' DISPLAYNAME='Folder Open Icon' TYPE='ptTextButton' DESCRIPTION='Specifies the icon of an openned folder.'/>
+
+		<ITEM ID='399' NAME='Indentation' DISPLAYNAME='Indentation' TYPE='ptInteger' DESCRIPTION='Specifies the indent value of each row, in pixels.'/>
+		<ITEM ID='400' NAME='OpenDuration' DISPLAYNAME='Open Duration' TYPE='ptInteger' DESCRIPTION='Specifies the duration of the expanding/collapsing animation, in milliseconds.'/>
+		<ITEM ID='401' NAME='bgcolor' DISPLAYNAME='Background Color' TYPE='ptColor' DESCRIPTION='Specifies the background color.'/>
+
+		<ITEM ID='402' NAME='useTheme' DISPLAYNAME='Theme' TYPE='ptBoolean' DESCRIPTION='Specifies whether uses the color define by the color scheme.'/>
+		<ITEM ID='403' NAME='theme_color' DISPLAYNAME='Theme Color' TYPE='ptValuesList' DESCRIPTION='Specifies the color scheme.'/>
+		<ITEM ID='404' NAME='rollover_color' DISPLAYNAME='Hot Color' TYPE='ptColor' DESCRIPTION='Specifies the background color of the menu item when the mouse hovers.'/>
+		<ITEM ID='405' NAME='selection_color' DISPLAYNAME='Highlight Color' TYPE='ptColor' DESCRIPTION='Specifies the background color of the menu item selected.'/>
+
+		<ITEM ID='406' NAME='border_style' DISPLAYNAME='Border Properties' TYPE='ptValuesList' DESCRIPTION='Specifies the border properties.'/>
+		<ITEM ID='407' NAME='h_scroll' DISPLAYNAME='H Scroll' TYPE='ptBoolean' DESCRIPTION='Specifies whether the horizontal scroll bar is displayed.'/>
+		<ITEM ID='408' NAME='h_max_position' DISPLAYNAME='H Scroll Range' TYPE='ptInteger' DESCRIPTION='Specifies the range of the horizontal scrolling.'/>
+		<ITEM ID='409' NAME='v_scroll' DISPLAYNAME='V Scroll' TYPE='ptBoolean' DESCRIPTION='Specifies whether the vertical scroll bar is displayed.'/>
+
+
+		<ITEM ID='410' NAME='sep_display' DISPLAYNAME='Show Separator' TYPE='ptBoolean' DESCRIPTION='Specifies whether the separator is displayed.'/>
+		<ITEM ID='411' NAME='sep_color' DISPLAYNAME='Separator Color' TYPE='ptColor' DESCRIPTION='Specifies the color of the separator.'/>
+		<ITEM ID='412' NAME='border_display' DISPLAYNAME='Show Border' TYPE='ptBoolean' DESCRIPTION='Specifies whether the menu border is displayed.'/>
+		<ITEM ID='413' NAME='border_color' DISPLAYNAME='Border Color' TYPE='ptColor' DESCRIPTION='Specifies the color of the menu border.'/>
+		<ITEM ID='414' NAME='sep_height' DISPLAYNAME='Separator Height' TYPE='ptInteger' DESCRIPTION='Specifies the height of the separator.'/>
+		<ITEM ID='415' NAME='bar_height' DISPLAYNAME='Title Height' TYPE='ptInteger' DESCRIPTION='Specifies the height of the title.'/>
+		<ITEM ID='416' NAME='bar_up' DISPLAYNAME='Title Above Image' TYPE='ptBoolean' DESCRIPTION='Specifies whether the title is displayed above the image.'/>
+		<ITEM ID='417' NAME='move_speed' DISPLAYNAME='Animation Speed' TYPE='ptInteger' DESCRIPTION='Specifies the animation speed of the menu.'/>
+		<ITEM ID='418' NAME='default_open_menu' DISPLAYNAME='Initial Selected Item' TYPE='ptInteger' DESCRIPTION='Specifies the menu item that selected initially.'/>
+		<ITEM ID='419' NAME='shrink_width' DISPLAYNAME='Closed Item Width' TYPE='ptInteger' DESCRIPTION='Specifies the width of closed menu item.'/>
+		<ITEM ID='420' NAME='move_sound' DISPLAYNAME='Sound Effect' TYPE='ptTextButton' DESCRIPTION='Specifies the sound during the movement of the menu item.'/>
+
+		<ITEM ID='500' NAME='Main_Height' DISPLAYNAME='Height' TYPE='ptInteger' DESCRIPTION='Specifies the height of menu item.'/>
+		<ITEM ID='501' NAME='Main_Cursor' DISPLAYNAME='Cursor' TYPE='ptValuesList' DESCRIPTION='Specifies the cursor of menu item.'/>
+		<ITEM ID='502' NAME='Main_HighlightColor' DISPLAYNAME='Border Highlight Color' TYPE='ptColor' DESCRIPTION='Specifies the highlight color of the 3D border.'/>
+		<ITEM ID='503' NAME='Main_ShadowColor' DISPLAYNAME='Border Lowlight Color' TYPE='ptColor' DESCRIPTION='Specifies the lowlight color of the 3D border.'/>
+		<ITEM ID='504' NAME='Main_BgGradColor1' DISPLAYNAME='Background Gradient Start Color' TYPE='ptColor' DESCRIPTION='Specifies the start color of background gradient.'/>
+		<ITEM ID='505' NAME='Main_BgGradColor2' DISPLAYNAME='Background Gradient End Color' TYPE='ptColor' DESCRIPTION='Specifies the end color of background gradient.'/>
+		<ITEM ID='506' NAME='Main_HoverBgGradColor1' DISPLAYNAME='Hot Background Gradient Start Color' TYPE='ptColor' DESCRIPTION='Specifies the start color of background gradient when the mouse hovers.'/>
+		<ITEM ID='507' NAME='Main_HoverBgGradColor2' DISPLAYNAME='Hot Background Gradient End Color' TYPE='ptColor' DESCRIPTION='Specifies the end color of background gradient when the mouse hovers.'/>
+		<ITEM ID='508' NAME='Main_SelBgGradColor1' DISPLAYNAME='Pressed Background Gradient Start Color' TYPE='ptColor' DESCRIPTION='Specifies the start color of background gradient when the mouse is pressed.'/>
+		<ITEM ID='509' NAME='Main_SelBgGradColor2' DISPLAYNAME='Pressed Background Gradient End Color' TYPE='ptColor' DESCRIPTION='Specifies the end color of background gradient when the mouse is pressed.'/>
+		<ITEM ID='510' NAME='Main_FontName' DISPLAYNAME='Font Name' TYPE='ptFont' DESCRIPTION='Specifies the font name.'/>
+		<ITEM ID='511' NAME='Main_FontSize' DISPLAYNAME='Font Size' TYPE='ptInteger' DESCRIPTION='Specifies the font size.'/>
+		<ITEM ID='512' NAME='Main_FontStyle' DISPLAYNAME='Font Style' TYPE='ptValuesList' DESCRIPTION='Specifies the font style.'/>
+		<ITEM ID='513' NAME='Main_Text_Align' DISPLAYNAME='Text Alignment' TYPE='ptValuesList' DESCRIPTION='Specifies the alignment of the text.'/>
+		<ITEM ID='514' NAME='Main_TextColor' DISPLAYNAME='Text Color' TYPE='ptColor' DESCRIPTION='Specifies the color of the text.'/>
+		<ITEM ID='515' NAME='Main_Text_X_Padding' DISPLAYNAME='Text X Offset' TYPE='ptInteger' DESCRIPTION='Specifies the X offset of the menu text.'/>
+		<ITEM ID='516' NAME='Main_Text_Y_Padding' DISPLAYNAME='Text Y Offset' TYPE='ptInteger' DESCRIPTION='Specifies the Y offset of the menu text.'/>
+
+		<ITEM ID='520' NAME='Sub_FontName' DISPLAYNAME='FontName' TYPE='ptFont' DESCRIPTION='Specifies the font name.'/>
+		<ITEM ID='521' NAME='Sub_FontSize' DISPLAYNAME='Font Size' TYPE='ptInteger' DESCRIPTION='Specifies the font size.'/>
+		<ITEM ID='522' NAME='Sub_FontStyle' DISPLAYNAME='Font Style' TYPE='ptValuesList' DESCRIPTION='Specifies the font style.'/>
+		<ITEM ID='523' NAME='Sub_Spacing' DISPLAYNAME='Spacing' TYPE='ptInteger' DESCRIPTION='Specifies the spacing between menu items.'/>
+		<ITEM ID='524' NAME='Sub_TextColor' DISPLAYNAME='Text Color' TYPE='ptColor' DESCRIPTION='Specifies the color of the item text.'/>
+		<ITEM ID='525' NAME='Sub_Text_HoverColor' DISPLAYNAME='Hot Text Color' TYPE='ptColor' DESCRIPTION='Specifies the color of the item text when the mouse hovers.'/>
+		<ITEM ID='526' NAME='Sub_Text_Align' DISPLAYNAME='Text Alignment' TYPE='ptValuesList' DESCRIPTION='Specifies the alignment of the item text.'/>
+		<ITEM ID='527' NAME='Sub_Text_X_Padding' DISPLAYNAME='Text X Offset' TYPE='ptInteger' DESCRIPTION='Specifies the X offset of the menu text.'/>
+		<ITEM ID='528' NAME='Sub_Text_Y_Padding' DISPLAYNAME='Text Y Offset' TYPE='ptInteger' DESCRIPTION='Specifies the Y offset of the menu text.'/>
+		<ITEM ID='529' NAME='Sub_Pic_Align' DISPLAYNAME='Image Alignment' TYPE='ptValuesList' DESCRIPTION='Specifies the alignment of the item image.'/>
+		<ITEM ID='530' NAME='Sub_Pic_X_Padding' DISPLAYNAME='Image X Offset' TYPE='ptInteger' DESCRIPTION='Specifies the X offset of the menu image.'/>
+		<ITEM ID='531' NAME='Sub_Pic_Height' DISPLAYNAME='Image Height' TYPE='ptInteger' DESCRIPTION='Specifies the height of the menu image.'/>
+		<ITEM ID='532' NAME='Sub_Pic_Width' DISPLAYNAME='Image Width' TYPE='ptInteger' DESCRIPTION='Specifies the width of the menu image.'/>
+		<ITEM ID='533' NAME='Sub_Sel_Margin' DISPLAYNAME='Selection Margin' TYPE='ptInteger' DESCRIPTION='Specifies the margin of the selection rectangle.'/>
+		<ITEM ID='534' NAME='Sub_Sel_Color' DISPLAYNAME='Selection Color' TYPE='ptColor' DESCRIPTION='Specifies the color of the selection rectangle.'/>
+		<ITEM ID='535' NAME='Sub_Sel_ColorAlpha' DISPLAYNAME='Selection Color Transparence' TYPE='ptInteger' DESCRIPTION='Specifies the transparence of the selection rectangle.'/>
+
+		<ITEM ID='550' NAME='BgGradColor1' DISPLAYNAME='Background Gradient Start Color' TYPE='ptColor' DESCRIPTION='Specifies the start color of the background gradient.'/>
+		<ITEM ID='551' NAME='BgGradColor2' DISPLAYNAME='Background Gradient End Color' TYPE='ptColor' DESCRIPTION='Specifies the end color of the background gradient.'/>
+		<ITEM ID='552' NAME='GradDirection' DISPLAYNAME='Gradient Direction' TYPE='ptValuesList' DESCRIPTION='Specifies the direction of the gradient effect.'/>
+		<ITEM ID='553' NAME='Arrow_BorderColor' DISPLAYNAME='Arrow Border Color' TYPE='ptColor' DESCRIPTION='Specifies the border color of the arrow.'/>
+		<ITEM ID='554' NAME='Arrow_Color' DISPLAYNAME='Arrow Color' TYPE='ptColor' DESCRIPTION='Specifies the color of the arrow.'/>
+		<ITEM ID='555' NAME='ScrollArrowPosition' DISPLAYNAME='Up/Down Arrow Position' TYPE='ptValuesList' DESCRIPTION='Specifies the position of up/down arrow.'/>
+		<ITEM ID='556' NAME='Main_MoveSpeed' DISPLAYNAME='Main Animation Speed' TYPE='ptInteger' DESCRIPTION='Specifies the animation speed of main menu items.'/>
+		<ITEM ID='557' NAME='Sub_MoveSpeed' DISPLAYNAME='Sub Animation Speed' TYPE='ptInteger' DESCRIPTION='Specifies the animation speed of sub menu items.'/>
+		<ITEM ID='558' NAME='SelectedMain' DISPLAYNAME='Highlight Main Item' TYPE='ptInteger' DESCRIPTION='Specifies the index of the initially highlighted main menu item.'/>
+		<ITEM ID='559' NAME='Main_ClickSound' DISPLAYNAME='Main Sound Effect' TYPE='ptTextButton' DESCRIPTION='Specifies the sound effect for main menu item.'/>
+		<ITEM ID='560' NAME='Sub_ClickSound' DISPLAYNAME='Sub Sound Effect' TYPE='ptTextButton' DESCRIPTION='Specifies the sound effect for sub menu item.'/>
+		<ITEM ID='561' NAME='Menu_Height' DISPLAYNAME='Menu Height' TYPE='ptInteger' DESCRIPTION='Specifies the height of the menu.'/>
+		<ITEM ID='562' NAME='Menu_Width' DISPLAYNAME='Menu Width' TYPE='ptInteger' DESCRIPTION='Specifies the width of the menu.'/>
+
+	</PROPERTY_DEF>
+
+</DEFINE>

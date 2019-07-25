@@ -1,0 +1,105 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>2-2用CSS美化表格</title>
+</head>
+
+<body>
+
+<p>&lt;html&gt;<br>
+&lt;head&gt;<br>
+&lt;title&gt;表格的美化&lt;/title&gt;<br>
+&lt;style type=&quot;text/css&quot;&gt;<br>
+table {<br>
+font-family: &quot;隶书&quot;;<br>
+font-size: 16px;<br>
+text-align: center;<br>
+}<br>
+table caption {<br>
+font-size: 36px;<br>
+font-weight: bold;<br>
+background-color: #FF0;<br>
+border-top-style:solid;<br>
+border-bottom-width: 2px;<br>
+border-bottom-style:solid;<br>
+border-top-color: #F00; <br>
+border-bottom-color: #F00; <br>
+}<br>
+tbody tr {<br>
+background-color: #ccc;<br>
+}<br>
+td,th {<br>
+border: 2px solid #eee;<br>
+border-right-color: #999;<br>
+border-bottom-color: #999;<br>
+padding: 5px;<br>
+}<br>
+thead {<br>
+background-color: #f7f2ea;<br>
+}<br>
+tfoot {<br>
+background-color: #06F;<br>
+}<br>
+tr.even {<br>
+background-color: #999;<br>
+}<br>
+<br>
+&lt;/style&gt;<br>
+&lt;/head&gt;<br>
+&lt;body&gt;<br>
+&lt;table width=&quot;400&quot; border=&quot;0&quot; cellspacing=&quot;0&quot; &gt;<br>
+&lt;caption&gt;期末考试成绩表&lt;/caption&gt;<br>
+&lt;thead&gt; &lt;!--定义表格的表头--&gt;<br>
+&lt;tr&gt;<br>
+&lt;th&gt;姓名&lt;/th&gt;<br>
+&lt;th&gt;计算机网络&lt;/th&gt;<br>
+&lt;th&gt;数据库原理&lt;/th&gt;<br>
+&lt;th&gt;网页设计&lt;/th&gt;<br>
+&lt;th&gt;总分&lt;/th&gt;<br>
+&lt;/tr&gt;<br>
+&lt;/thead&gt;<br>
+&lt;tbody&gt; &lt;!--定义表格的表体--&gt;<br>
+&lt;tr class=&quot;even&quot;&gt;<br>
+&lt;th&gt;王二&lt;/th&gt;<br>
+&lt;td&gt;77&lt;/td&gt;<br>
+&lt;td&gt;66&lt;/td&gt;<br>
+&lt;td&gt;78&lt;/td&gt;<br>
+&lt;td&gt;221&lt;/td&gt;<br>
+&lt;/tr&gt;<br>
+&lt;tr&gt;<br>
+&lt;th&gt;张三&lt;/th&gt;<br>
+&lt;td&gt;88&lt;/td&gt;<br>
+&lt;td&gt;80&lt;/td&gt;<br>
+&lt;td&gt;86&lt;/td&gt;<br>
+&lt;td&gt;254&lt;/td&gt;<br>
+&lt;/tr&gt;<br>
+&lt;tr class=&quot;even&quot;&gt;<br>
+&lt;th&gt;李四&lt;/th&gt;<br>
+&lt;td&gt;98&lt;/td&gt;<br>
+&lt;td&gt;57&lt;/td&gt;<br>
+&lt;td&gt;90&lt;/td&gt;<br>
+&lt;td&gt;245&lt;/td&gt;<br>
+&lt;/tr&gt;<br>
+&lt;tr&gt;<br>
+&lt;th&gt;赵五&lt;/th&gt;<br>
+&lt;td&gt;67&lt;/td&gt;<br>
+&lt;td&gt;90&lt;/td&gt;<br>
+&lt;td&gt;69&lt;/td&gt;<br>
+&lt;td&gt;226&lt;/td&gt;<br>
+&lt;/tr&gt;<br>
+&lt;/tbody&gt;<br>
+&lt;tfoot&gt; &lt;!--定义表格的表尾--&gt;<br>
+&lt;tr&gt;<br>
+&lt;th&gt;平均分&lt;/th&gt;<br>
+&lt;td colspan=&quot;4&quot;&gt;78.83&lt;/td&gt;<br>
+&lt;/tr&gt;<br>
+&lt;/tfoot&gt;<br>
+&lt;/table&gt;<br>
+&lt;/body&gt;<br>
+&lt;/html&gt;<br>
+　</p>
+
+</body>
+
+</html>

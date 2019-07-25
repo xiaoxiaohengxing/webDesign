@@ -1,0 +1,67 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>2-5用CSS制作中英文双语导航条</title>
+</head>
+
+<body>
+
+<p>&lt;html&gt;<br>
+&lt;head&gt;<br>
+&lt;title&gt;中英文双语导航条&lt;/title&gt;<br>
+<br>
+&lt;style&gt;<br>
+#nav {<br>
+width:750px; /*设置导航栏的宽度为750px */<br>
+margin:50px auto; /*上下边界为50px，左右为自动*/<br>
+border:1px solid #CCC; /*设置导航栏的边框为1px的灰色实线*/<br>
+overflow: hidden; /*隐藏溢出*/<br>
+}<br>
+<br>
+<br>
+#nav li {<br>
+width:100px;<br>
+height:22px;<br>
+line-height:22px;<br>
+list-style-type: none;<br>
+float:left;<br>
+overflow:hidden;<br>
+text-align:center;<br>
+}<br>
+<br>
+#nav a {<br>
+width:100px;<br>
+float:left;<br>
+overflow:hidden;<br>
+}<br>
+<br>
+#nav span {<br>
+display:block;<br>
+margin-top:-22px;<br>
+}<br>
+<br>
+#nav a:hover {<br>
+padding-top:22px;<br>
+}<br>
+<br>
+&lt;/style&gt;<br>
+<br>
+<br>
+&lt;/head&gt;<br>
+&lt;body&gt;<br>
+&lt;ul id=&quot;nav&quot;&gt;<br>
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;span&gt;Home&lt;/span&gt;首页&lt;/a&gt;&lt;/li&gt;<br>
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;span&gt;News&lt;/span&gt;行业新闻&lt;/a&gt;&lt;/li&gt;<br>
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;span&gt;Product&lt;/span&gt;产品展示&lt;/a&gt;&lt;/li&gt;<br>
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;span&gt;Order&lt;/span&gt;产品订购&lt;/a&gt;&lt;/li&gt;<br>
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;span&gt;Service&lt;/span&gt;用户服务&lt;/a&gt;&lt;/li&gt;<br>
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;span&gt;Technology&lt;/span&gt;技术力量&lt;/a&gt;&lt;/li&gt;<br>
+&lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;span&gt;Cooperation&lt;/span&gt;合作加盟&lt;/a&gt;&lt;/li&gt;<br>
+&lt;/ul&gt;<br>
+&lt;/body&gt;<br>
+&lt;/html&gt;</p>
+
+</body>
+
+</html>

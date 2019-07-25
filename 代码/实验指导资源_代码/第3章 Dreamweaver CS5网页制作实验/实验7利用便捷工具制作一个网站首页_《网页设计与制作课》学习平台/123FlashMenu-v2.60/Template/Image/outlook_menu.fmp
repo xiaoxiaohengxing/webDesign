@@ -1,0 +1,75 @@
+<TEMPLATE APPNAME="123FLASHMENU" VER_NUMBER="2" VER_LOWNUMBER="2" TYPE="4" SWF_NAME="outlook_menu" SUB_LEVEL="2" CATALOG="5" SWF_SHOWNAME="outlook_menu" WIDTH="150" HEIGHT="450" BGCOLOR="clWhite" FLASHBGCOLOR="clWhite" TRANSPARENT="true" AUTOSIZE="false">
+  <GROUP_ATTRIBUTE>
+  	<PARAM ID="1" DF_VALUE="new item"/>
+  	<PARAM ID="2" DF_VALUE=""/>
+  	<PARAM ID="3" DF_VALUE="_blank,_parent,_self,_top"/>
+  	<PARAM ID="101" DF_VALUE=""/>  	
+  </GROUP_ATTRIBUTE>
+	<GROUP_MENU>
+		<GROUP_PARAM ID="300">
+			<PARAM ID="500" DF_VALUE="30"/>
+			<PARAM ID="501" DF_VALUE="Hand,Arrow"/>
+			<PARAM ID="502" DF_VALUE="0xFFFFFF"/>
+			<PARAM ID="503" DF_VALUE="0x999999"/>
+			<PARAM ID="504" DF_VALUE="0xCCCCCC"/>
+			<PARAM ID="505" DF_VALUE="clWhite"/>
+			<PARAM ID="506" DF_VALUE="0xCCCCCC"/>
+			<PARAM ID="507" DF_VALUE="$00D8DEDD"/>
+			<PARAM ID="508" DF_VALUE="0x00FF99"/>
+			<PARAM ID="509" DF_VALUE="0xCCCCCC"/>
+			<PARAM ID="511" DF_VALUE="13"/>
+			<PARAM ID="510" DF_VALUE="Arial"/>
+			<PARAM ID="512" DF_VALUE="Bold,Plain,Italic,Bold-Italic"/>
+			<PARAM ID="513" DF_VALUE="Left,Center,Right"/>
+			<PARAM ID="514" DF_VALUE="0xFF0000"/>
+			<PARAM ID="515" DF_VALUE="4"/>
+			<PARAM ID="516" DF_VALUE="4"/>
+		</GROUP_PARAM>
+		<GROUP_PARAM ID="301">
+			<PARAM ID="520" DF_VALUE="Arial"/>
+			<PARAM ID="521" DF_VALUE="12"/>
+			<PARAM ID="522" DF_VALUE="Plain,Bold,Italic,Bold-Italic"/>
+			<PARAM ID="523" DF_VALUE="10"/>
+			<PARAM ID="524" DF_VALUE="0x000000"/>
+			<PARAM ID="525" DF_VALUE="0xffffff"/>
+			<PARAM ID="526" DF_VALUE="Center,Left,Right"/>
+			<PARAM ID="527" DF_VALUE="0"/>
+			<PARAM ID="528" DF_VALUE="0"/>
+			<PARAM ID="529" DF_VALUE="Center,Left,Right"/>
+			<PARAM ID="530" DF_VALUE="0"/>
+			<PARAM ID="531" DF_VALUE="40"/>
+			<PARAM ID="532" DF_VALUE="40"/>
+			<PARAM ID="533" DF_VALUE="6"/>
+			<PARAM ID="534" DF_VALUE="clWhite"/>
+			<PARAM ID="535" DF_VALUE="30"/>
+		</GROUP_PARAM>
+		<PARAM ID="550" DF_VALUE="$00ABA227"/>
+		<PARAM ID="551" DF_VALUE="$00F7F3C8"/>
+		<PARAM ID="552" DF_VALUE="V,H"/>
+		<PARAM ID="553" DF_VALUE="0x000000"/>
+		<PARAM ID="554" DF_VALUE="0x000000"/>
+		<PARAM ID="555" DF_VALUE="Together,Seperate"/>
+		<PARAM ID="556" DF_VALUE="30"/>
+		<PARAM ID="557" DF_VALUE="5"/>
+		<PARAM ID="558" DF_VALUE="1"/>
+		<PARAM ID="559" DF_VALUE="1.mp3"/>
+		<PARAM ID="560" DF_VALUE=""/>
+		<PARAM ID="561" DF_VALUE="400"/>
+		<PARAM ID="562" DF_VALUE="150"/>
+		<PARAM ID="150" DF_VALUE="false"/>
+	</GROUP_MENU>
+	<GROUP_SIZE>
+		<PARAM ID="140" DF_VALUE="150"/>
+		<PARAM ID="141" DF_VALUE="450"/>
+		<PARAM ID="142" DF_VALUE="false"/>
+	</GROUP_SIZE>
+	<GROUP_PAGE>
+		<PARAM ID="143" DF_VALUE="clWhite"/>
+		<PARAM ID="144" DF_VALUE="clWhite"/>
+		<PARAM ID="145" DF_VALUE="true"/>
+	</GROUP_PAGE>
+
+	<MENU>
+		<item name="Home" callback="onClick"><item name="SiteMap" image="ico1.jpg" callback="onClick"/><item name="ContactUs" image="ico2.jpg" callback="onClick"/><item name="Link to us" image="ico3.jpg" callback="onClick"/><item name="Privacy" image="ico4.jpg" callback="onClick"/></item><item name="Products" callback="onClick"><item name="123 Flash Menu" image="ico1.jpg" callback="onClick"/><item name="Flash Albumn" image="ico2.jpg" callback="onClick"/><item name="Flash Capture" image="ico3.jpg" callback="onClick"/><item name="Flash Admin" image="ico4.jpg" callback="onClick"/><item name="Flash Smith" image="ico5.jpg" callback="onClick"/></item><item name="Download" callback="onClick"><item name="Free Trails" image="ico1.jpg" callback="onClick"/><item name="Updates" image="ico2.jpg" callback="onClick"/><item name="Get FlashPlayer" image="ico3.jpg" callback="onClick"/><item name="More..." image="ico4.jpg" callback="onClick"/></item><item name="Order" callback="onClick"><item name="Order Home" image="ico1.jpg" callback="onClick"/><item name="Options" image="ico2.jpg" callback="onClick"/><item name="Licensing" image="ico3.jpg" callback="onClick"/><item name="Order History" image="ico4.jpg" callback="onClick"/><item name="More..." image="ico5.jpg" callback="onClick"/></item><item name="Support" callback="onClick"><item name="Windows 98" image="ico1.jpg" callback="onClick"/><item name="Windows 2000" image="ico2.jpg" callback="onClick"/><item name="Windows XP" image="ico3.jpg" callback="onClick"/><item name="Linux" image="ico4.jpg" callback="onClick"/></item></MENU>
+
+</TEMPLATE>

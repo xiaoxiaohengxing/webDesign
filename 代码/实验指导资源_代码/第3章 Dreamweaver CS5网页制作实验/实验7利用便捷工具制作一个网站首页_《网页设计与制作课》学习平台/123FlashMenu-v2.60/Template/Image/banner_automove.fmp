@@ -1,0 +1,67 @@
+<TEMPLATE APPNAME="123FLASHMENU" VER_NUMBER="2" VER_LOWNUMBER="2" TYPE="4" SWF_NAME="banner_automove" SUB_LEVEL="1" CATALOG="5" SWF_SHOWNAME="banner_automove" WIDTH="700" HEIGHT="120" BGCOLOR="clWhite" FLASHBGCOLOR="clWhite" TRANSPARENT="true">
+	<GROUP_ATTRIBUTE>
+		<PARAM ID="1" DF_VALUE="new item"/>
+		<PARAM ID="2" DF_VALUE=""/>
+		<PARAM ID="3" DF_VALUE="_blank,_parent,_self,_top"/>
+		<PARAM ID="50">
+			<PARAM ID="51" DF_VALUE="undefined"/>
+			<PARAM ID="52" DF_VALUE="Verdana"/>
+			<PARAM ID="53" DF_VALUE="0x000000"/>
+			<PARAM ID="54" DF_VALUE="11"/>
+			<PARAM ID="55" DF_VALUE="false"/>
+			<PARAM ID="56" DF_VALUE="false"/>
+			<PARAM ID="57" DF_VALUE="false"/>
+			<PARAM ID="58" DF_VALUE="left,center,right"/>
+			<PARAM ID="59" DF_VALUE="3"/>
+			<PARAM ID="60" DF_VALUE="3"/>
+		</PARAM>
+		<PARAM ID="70">
+			<PARAM ID="71" DF_VALUE="undefined"/>
+			<PARAM ID="72" DF_VALUE="Verdana"/>
+			<PARAM ID="73" DF_VALUE="0x000000"/>
+			<PARAM ID="74" DF_VALUE="11"/>
+			<PARAM ID="75" DF_VALUE="false"/>
+			<PARAM ID="76" DF_VALUE="false"/>
+			<PARAM ID="77" DF_VALUE="false"/>
+			<PARAM ID="78" DF_VALUE="left,center,right"/>
+			<PARAM ID="79" DF_VALUE="0"/>
+			<PARAM ID="80" DF_VALUE="0"/>
+		</PARAM>
+		<PARAM ID="90">
+			<PARAM ID="92" DF_VALUE="verdana"/>
+			<PARAM ID="93" DF_VALUE="0x000000"/>
+			<PARAM ID="94" DF_VALUE="12"/>
+			<PARAM ID="95" DF_VALUE="false"/>
+			<PARAM ID="96" DF_VALUE="false"/>
+			<PARAM ID="97" DF_VALUE="false"/>
+			<PARAM ID="98" DF_VALUE="left,center,right"/>
+			<PARAM ID="99" DF_VALUE="0xffffff"/>
+		</PARAM>
+		<PARAM ID="100" DF_VALUE="0xcccccc"/>
+		<PARAM ID="101" DF_VALUE=""/>
+	</GROUP_ATTRIBUTE>
+	<GROUP_MENU>
+		<PARAM ID="410" DF_VALUE="true"/>
+		<PARAM ID="411" DF_VALUE="clSilver"/>
+		<PARAM ID="412" DF_VALUE="true"/>
+		<PARAM ID="413" DF_VALUE="0xcccccc"/>
+		<PARAM ID="414" DF_VALUE="120"/>
+		<PARAM ID="415" DF_VALUE="20"/>
+		<PARAM ID="416" DF_VALUE="true"/>
+		<PARAM ID="417" DF_VALUE="20"/>
+		<PARAM ID="418" DF_VALUE="5"/>
+		<PARAM ID="419" DF_VALUE="110"/>
+		<PARAM ID="420" DF_VALUE=""/>		
+	</GROUP_MENU>
+	<GROUP_SIZE>
+		<PARAM ID="140" DF_VALUE="700"/>
+		<PARAM ID="141" DF_VALUE="120"/>
+	</GROUP_SIZE>
+	<GROUP_PAGE>
+		<PARAM ID="143" DF_VALUE="clWhite"/>
+		<PARAM ID="144" DF_VALUE="clWhite"/>
+		<PARAM ID="145" DF_VALUE="true"/>
+	</GROUP_PAGE>
+	<MENU>
+		<item name="This is sample1 This is sample1 This is sample1 This is sample1 This is sample1" subTitle="01" subTitle_font="verdana" subTitle_color="clWhite" subTitle_size="11" subTitle_bold="true" subTitle_italic="false" subTitle_underline="false" subTitle_align="center" subTitle_x_offset="0" subTitle_y_offset="2" title="Growing" title_font="verdana" title_color="0x0000cc" title_size="11" title_bold="true" title_italic="false" title_underline="false" title_align="center" title_x_offset="0" title_y_offset="5" menu_font="verdana" menu_color="0x0000cc" menu_size="11" menu_bold="false" menu_italic="false" menu_underline="false" menu_align="left" menu_bgcolor="$00D9D9FF" bar_color="$000000CC" image="auto1.jpg" callback="onClick"/><item name="This is sample2.This is sample2.This is sample2.This is sample2."  subTitle="02" subTitle_font="Arial" subTitle_color="clYellow" subTitle_size="11" subTitle_bold="true" subTitle_italic="false" subTitle_underline="false" subTitle_align="center" subTitle_x_offset="0" subTitle_y_offset="3" title="Working" title_font="Arial" title_color="clHighlight" title_size="11" title_bold="true" title_italic="false" title_underline="false" title_align="center" title_x_offset="0" title_y_offset="5" menu_font="Arial" menu_color="clHighlight" menu_size="12" menu_bold="false" menu_italic="true" menu_underline="false" menu_align="left" menu_bgcolor="$00FFE0C1" bar_color="clHighlight" image="auto3.jpg" callback="onClick"/><item name="This is sample3.This is sample3.This is sample3.This is sample3."  subTitle="03" subTitle_font="Arial" subTitle_color="clWhite" subTitle_size="11" subTitle_bold="true" subTitle_italic="false" subTitle_underline="false" subTitle_align="center" subTitle_x_offset="0" subTitle_y_offset="3" title="Relaxing" title_font="Arial" title_color="clGreen" title_size="11" title_bold="true" title_italic="false" title_underline="false" title_align="center" title_x_offset="0" title_y_offset="5" menu_font="Arial" menu_color="0x00cc00" menu_size="13" menu_bold="false" menu_italic="false" menu_underline="false" menu_align="left" menu_bgcolor="$00BFFFBF" bar_color="0x00cc00" image="auto4.jpg" callback="onClick"/><item name="This is sample4.This is sample4.This is sample4.This is sample4.This is sample4."  subTitle="04" subTitle_font="Arial" subTitle_color="clWhite" subTitle_size="11" subTitle_bold="true" subTitle_italic="false" subTitle_underline="false" subTitle_align="center" subTitle_x_offset="0" subTitle_y_offset="3" title="Traveling" title_font="Arial" title_color="clPurple" title_size="11" title_bold="true" title_italic="false" title_underline="false" title_align="center" title_x_offset="0" title_y_offset="5" menu_font="Arial" menu_color="clPurple" menu_size="11" menu_bold="true" menu_italic="false" menu_underline="true" menu_align="left" menu_bgcolor="$00FFBBFF" bar_color="$00B300B3" image="auto2.jpg" callback="onClick"/><item name="This is sample5.This is sample5.This is sample5.This is sample5.This is sample5.This is sample5."  subTitle="05" subTitle_font="Arial" subTitle_color="clWhite" subTitle_size="11" subTitle_bold="true" subTitle_italic="false" subTitle_underline="false" subTitle_align="center" subTitle_x_offset="0" subTitle_y_offset="3" title="Health" title_font="Arial" title_color="clOlive" title_size="11" title_bold="true" title_italic="false" title_underline="false" title_align="center" title_x_offset="0" title_y_offset="5" menu_font="Arial" menu_color="clOlive" menu_size="11" menu_bold="false" menu_italic="false" menu_underline="true" menu_align="left" menu_bgcolor="$009FFFFF" bar_color="clOlive" image="auto5.jpg" callback="onClick"/></MENU>
+</TEMPLATE>

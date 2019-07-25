@@ -1,0 +1,76 @@
+<TEMPLATE APPNAME="123FLASHMENU" VER_NUMBER="2" VER_LOWNUMBER="2" TYPE="2" SWF_NAME="menu-tabs" SUB_LEVEL="2" CATALOG="2" SWF_SHOWNAME="menu-tabs" WIDTH="640" HEIGHT="60" BGCOLOR="0xffffff" FLASHBGCOLOR="0xffffff" TRANSPARENT="false" >
+  <GROUP_ATTRIBUTE>
+  	<PARAM ID="1" DF_VALUE="new item"/>
+  	<PARAM ID="2" DF_VALUE=""/>
+  	<PARAM ID="3" DF_VALUE="_blank,_parent,_self,_top"/>  	
+  </GROUP_ATTRIBUTE>
+  
+	<GROUP_MENU>		
+				<PARAM ID="260" DF_VALUE="0x58A42B"/>
+				<PARAM ID="285" DF_VALUE="verdana"/>
+				<PARAM ID="286" DF_VALUE="10"/>	
+				<PARAM ID="287" DF_VALUE="0x11ffff"/>							
+				<PARAM ID="288" DF_VALUE="0x11ffff"/>
+				<PARAM ID="267" DF_VALUE="0xAE8B20"/>
+				<PARAM ID="269" DF_VALUE="0xEDD99C"/>
+				<PARAM ID="289" DF_VALUE="Arial"/>
+				<PARAM ID="290" DF_VALUE="10"/>
+				<PARAM ID="291" DF_VALUE="0x000000"/>
+				<PARAM ID="295" DF_VALUE="0xffffff"/>
+				<PARAM ID="292" DF_VALUE="false"/>
+				<PARAM ID="293" DF_VALUE="2000"/>
+				<PARAM ID="294" DF_VALUE="onRollover,onClick"/>																					
+				<PARAM ID="9" DF_VALUE="20"/>
+				<PARAM ID="10" DF_VALUE="10"/>				
+				<PARAM ID="296" DF_VALUE="650"/>
+				<PARAM ID="16" DF_VALUE=""/>				
+				<PARAM ID="17" DF_VALUE="false"/>												
+	</GROUP_MENU>
+	<GROUP_SIZE>
+		<PARAM ID="140" DF_VALUE="640"/>
+		<PARAM ID="141" DF_VALUE="60"/>
+	</GROUP_SIZE>
+	<GROUP_PAGE>
+		<PARAM ID="143" DF_VALUE="0xffffff"/>
+		<PARAM ID="144" DF_VALUE="0xffffff"/>
+		<PARAM ID="145" DF_VALUE="false"/>
+	</GROUP_PAGE>
+	<MENU>
+		<item name="Home" >
+			<item name="SiteMap"/>
+			<item name="ContactUs"/>
+			<item name="Link to us"/>
+			<item name="Privacy"/>
+			<item name="Resellers"/>
+			<item name="Domain Help"/>
+		</item>
+		<item name="Products" >			
+			<item name="123 Flash Menu" />
+			<item name="Flash Albumn" />
+			<item name="Flash Capture" />
+			<item name="Flash Admin" />
+			<item name="Flash Smith" />			
+		</item>
+		<item name="Download" >
+			<item name="Free Trails" />
+			<item name="Updates" />
+			<item name="Get FlashPlayer" />
+			<item name="More..." />
+		</item>
+		<item name="Order" >
+			<item name="Order Home" />
+			<item name="Options" />
+			<item name="Licensing" />
+			<item name="Order History"/>
+			<item name="More..."/>
+		</item>
+		<item name="Support" >
+			<item name="Windows 98" />
+			<item name="Windows 2000" />
+			<item name="Windows XP" />
+			<item name="Linux" />
+			<item name="MAC OS" />
+		</item>
+	</MENU>
+</TEMPLATE>
+

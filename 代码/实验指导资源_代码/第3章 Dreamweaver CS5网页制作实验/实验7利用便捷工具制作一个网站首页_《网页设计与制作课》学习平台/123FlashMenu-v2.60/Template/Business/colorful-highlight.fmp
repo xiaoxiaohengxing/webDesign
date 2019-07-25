@@ -1,0 +1,101 @@
+<TEMPLATE APPNAME="123FLASHMENU" VER_NUMBER="2" VER_LOWNUMBER="2" TYPE="3" SWF_NAME="colorful-highlight" SUB_LEVEL="2" CATALOG="2" SWF_SHOWNAME="colorful-highlight" WIDTH="142" HEIGHT="250" BGCOLOR="clWhite" FLASHBGCOLOR="clBlack" TRANSPARENT="true" AUTOSIZE="true">
+  <GROUP_ATTRIBUTE>
+  	<PARAM ID="1" DF_VALUE="new item"/>
+  	<PARAM ID="2" DF_VALUE=""/>
+  	<PARAM ID="3" DF_VALUE="_blank,_parent,_self,_top"/>  	
+  </GROUP_ATTRIBUTE>
+	<GROUP_MENU>
+		<PARAM ID="11" DF_VALUE="false"/>
+		<GROUP_PARAM ID="280">
+				<PARAM ID="1" DF_VALUE="140"/>
+				<PARAM ID="2" DF_VALUE="20"/>
+				<PARAM ID="3" DF_VALUE="0"/>
+		</GROUP_PARAM>
+		<GROUP_PARAM ID="281">
+				<PARAM ID="4" DF_VALUE="_sans"/>
+				<PARAM ID="5" DF_VALUE="11"/>				
+				<PARAM ID="7" DF_VALUE="false"/>
+				<PARAM ID="8" DF_VALUE="left,center,right"/>
+				<PARAM ID="22" DF_VALUE="false"/>
+				<PARAM ID="9" DF_VALUE="10"/>
+				<PARAM ID="10" DF_VALUE="1"/>		
+		</GROUP_PARAM>
+		<PARAM ID="21" DF_VALUE="10"/>
+		<PARAM ID="20" DF_VALUE="100"/>
+		<GROUP_PARAM ID="282">
+				<PARAM ID="260" DF_VALUE="0x74ed4b"/>
+				<PARAM ID="261" DF_VALUE="0x000000"/>				
+				<PARAM ID="262" DF_VALUE="0x349c12"/>
+				<PARAM ID="263" DF_VALUE="0xffffff"/>
+				<PARAM ID="264" DF_VALUE="0x000000"/>
+				<PARAM ID="265" DF_VALUE="0x000000"/>
+				<PARAM ID="266" DF_VALUE="0xc7550d"/>		
+		</GROUP_PARAM>
+		<GROUP_PARAM ID="283">
+				<PARAM ID="267" DF_VALUE="0xc2f8c0"/>
+				<PARAM ID="268" DF_VALUE="0x000000"/>				
+				<PARAM ID="269" DF_VALUE="0x0066ff"/>
+				<PARAM ID="270" DF_VALUE="0xffffff"/>
+				<PARAM ID="271" DF_VALUE="0x000000"/>
+				<PARAM ID="272" DF_VALUE="0x000000"/>
+				<PARAM ID="273" DF_VALUE="0x666666"/>		
+				<PARAM ID="274" DF_VALUE="0x00ffcc"/>		
+		</GROUP_PARAM>	
+		<GROUP_PARAM ID="284">
+				<PARAM ID="13" DF_VALUE="0x000000"/>
+				<PARAM ID="275" DF_VALUE="0xffffff"/>				
+				<PARAM ID="276" DF_VALUE="0xffffff"/>
+		</GROUP_PARAM>					
+		<PARAM ID="16" DF_VALUE=""/>
+		<PARAM ID="17" DF_VALUE="false"/>			
+		<PARAM ID="150" DF_VALUE="false"/>	
+		
+	</GROUP_MENU>
+	<GROUP_SIZE>
+		<PARAM ID="140" DF_VALUE="142"/>
+		<PARAM ID="141" DF_VALUE="250"/>
+		<PARAM ID="142" DF_VALUE="true"/>
+	</GROUP_SIZE>
+	<GROUP_PAGE>
+		<PARAM ID="143" DF_VALUE="clWhite"/>
+		<PARAM ID="144" DF_VALUE="clBlack"/>
+		<PARAM ID="145" DF_VALUE="true"/>
+	</GROUP_PAGE>
+	<MENU>
+		<item name="Home" >
+			<item name="SiteMap"/>
+			<item name="ContactUs"/>
+			<item name="Link to us"/>
+			<item name="Privacy"/>
+			<item name="Resellers"/>
+			<item name="Domain Help"/>
+		</item>
+		<item name="Products" >			
+			<item name="123 Flash Menu" />
+			<item name="Flash Albumn" />
+			<item name="Flash Capture" />
+			<item name="Flash Admin" />
+			<item name="Flash Smith" />			
+		</item>
+		<item name="Download" >
+			<item name="Free Trails" />
+			<item name="Updates" />
+			<item name="Get FlashPlayer" />
+			<item name="More..." />
+		</item>
+		<item name="Order" >
+			<item name="Order Home" />
+			<item name="Options" />
+			<item name="Licensing" />
+			<item name="Order History"/>
+			<item name="More..."/>
+		</item>
+		<item name="Support" >
+			<item name="Windows 98" />
+			<item name="Windows 2000" />
+			<item name="Windows XP" />
+			<item name="Linux" />
+			<item name="MAC OS" />
+		</item>
+	</MENU>
+</TEMPLATE>

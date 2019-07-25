@@ -1,0 +1,70 @@
+<title>4-2制作一个页面的顶部</title>
+<p>&lt;html&gt;<br>
+&lt;head&gt;<br>
+&lt;title&gt;制作页面的头部&lt;/title&gt;<br>
+&lt;style type=&quot;text/css&quot;&gt;<br>
+#top{<br>
+margin:0 auto;<br>
+width:850px;<br>
+}<br>
+#logo{<br>
+float:left;<br>
+}<br>
+#menu{<br>
+float:right;<br>
+margin-right:20px;<br>
+margin-top:10px;<br>
+}<br>
+#menu a{<br>
+font-size:12px;<br>
+text-decoration:none;<br>
+}<br>
+#banner{<br>
+clear:both;<br>
+}<br>
+&lt;/style&gt;<br>
+&lt;/head&gt;<br>
+&lt;body&gt;<br>
+&lt;div id=&quot;top&quot;&gt;<br>
+&lt;div id=&quot;logo&quot;&gt;<br>
+&lt;img src=&quot;image/logo.gif&quot; /&gt;<br>
+&lt;/div&gt;<br>
+&lt;div id=&quot;menu&quot;&gt;<br>
+&lt;a onClick=&quot;SetHome('http://www.xuefudao.com')&quot; href=&quot;javascript:void(0)&quot; 
+title=&quot;设为首页&quot;&gt;设为首页&lt;/a&gt;&amp;nbsp;&amp;nbsp;| &amp;nbsp;&amp;nbsp;<br>
+&lt;a onClick=&quot;AddFavorite('http://www.xuefudao.com','xuefudao')&quot; href=&quot;javascript:void(0)&quot; 
+title=&quot;加入收藏&quot;&gt;加入收藏&lt;/a&gt;<br>
+<br>
+&lt;/div&gt;<br>
+&lt;div id=&quot;banner&quot;&gt;<br>
+&lt;img src=&quot;image/banner.png&quot; width=&quot;850&quot;/&gt;<br>
+&lt;/div&gt;<br>
+&lt;/div&gt;<br>
+&lt;SCRIPT language=&quot;javascript&quot;&gt;<br>
+//加入收藏<br>
+function AddFavorite(sURL, sTitle) {<br>
+sURL = encodeURI(sURL);<br>
+try {<br>
+window.external.addFavorite(sURL, sTitle);<br>
+} catch (e) {<br>
+try {<br>
+window.sidebar.addPanel(sTitle, sURL, &quot;&quot;);<br>
+} catch (e) {<br>
+alert(&quot;加入收藏失败,请使用Ctrl+D进行添加,或手动在浏览器里进行设置.&quot;);<br>
+}<br>
+}<br>
+}<br>
+//设为首页<br>
+function SetHome(url) {<br>
+if (document.all) {<br>
+document.body.style.behavior = 'url(#default#homepage)';<br>
+document.body.setHomePage(url);<br>
+} else {<br>
+alert(&quot;您好,您的浏览器不支持自动设置页面为首页功能,请您手动在浏览器里设置该页面为首页!&quot;);<br>
+}<br>
+}<br>
+&lt;/SCRIPT&gt;<br>
+<br>
+&lt;/body&gt;<br>
+&lt;/html&gt;<br>
+　</p>

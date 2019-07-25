@@ -1,0 +1,86 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>1-4表单标记的应用</title>
+</head>
+
+<body>
+
+<p>&lt;html&gt;<br>
+&lt;head&gt;<br>
+&lt;title&gt;表单标记的应用&lt;/title&gt;<br>
+&lt;/head&gt;<br>
+&lt;body&gt;<br>
+&lt;form id=&quot;form1&quot; name=&quot;form1&quot; method=&quot;post&quot; action=&quot;&quot;&gt;<br>
+&lt;table width=&quot;800&quot; border=&quot;20&quot; align=&quot;center&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; 
+bordercolor=&quot;red&quot;&gt;<br>
+&lt;tr&gt;<br>
+&lt;td colspan=&quot;3&quot; align=&quot;center&quot; bgcolor=&quot;#FFFF00&quot;&gt;请完成以下表单&lt;/td&gt;<br>
+&lt;/tr&gt;<br>
+&lt;tr&gt;<br>
+&lt;td width=&quot;232&quot; align=&quot;right&quot;&gt;姓名：&lt;/td&gt;<br>
+&lt;td width=&quot;273&quot;&gt;&lt;input name=&quot;textfield&quot; type=&quot;text&quot; id=&quot;textfield&quot; size=&quot;20&quot; 
+/&gt;&lt;/td&gt;<br>
+&lt;td width=&quot;249&quot; bgcolor=&quot;#66FFFF&quot;&gt;/*由4—12位字母和数字组成*/&lt;/td&gt;<br>
+&lt;/tr&gt;<br>
+&lt;tr&gt;<br>
+&lt;td align=&quot;right&quot;&gt;密码：&lt;/td&gt;<br>
+&lt;td&gt;&lt;input name=&quot;textfield2&quot; type=&quot;password&quot; id=&quot;textfield2&quot; size=&quot;16&quot; /&gt;&lt;/td&gt;<br>
+&lt;td bgcolor=&quot;#66FFFF&quot;&gt;/*由6—10位字母或数字组成*/&lt;/td&gt;<br>
+&lt;/tr&gt;<br>
+&lt;tr&gt;<br>
+&lt;td align=&quot;right&quot;&gt;性别：&lt;/td&gt;<br>
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;radio&quot; id=&quot;radio&quot; value=&quot;radio&quot; /&gt;男 <br>
+&lt;input type=&quot;radio&quot; name=&quot;radio&quot; id=&quot;radio2&quot; value=&quot;radio&quot; /&gt;女<br>
+&lt;/td&gt;<br>
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;<br>
+&lt;/tr&gt;<br>
+&lt;tr&gt;<br>
+&lt;td align=&quot;right&quot;&gt;职业：&lt;/td&gt;<br>
+&lt;td&gt;&lt;select name=&quot;select&quot; id=&quot;select&quot;&gt;<br>
+&lt;option selected=&quot;selected&quot;&gt;学生&lt;/option&gt;<br>
+&lt;option&gt;教育业&lt;/option&gt;<br>
+&lt;option&gt;发型师&lt;/option&gt;<br>
+&lt;option&gt;医疗业&lt;/option&gt;<br>
+&lt;option&gt;厨师&lt;/option&gt;<br>
+&lt;/select&gt;&lt;/td&gt;<br>
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;<br>
+&lt;/tr&gt;<br>
+&lt;tr&gt;<br>
+&lt;td height=&quot;53&quot; align=&quot;right&quot;&gt;个人爱好：&lt;/td&gt;<br>
+&lt;td&gt;<br>
+&lt;input type=&quot;checkbox&quot; name=&quot;checkbox&quot; id=&quot;checkbox&quot; /&gt;旅游 <br>
+&lt;input type=&quot;checkbox&quot; name=&quot;checkbox2&quot; id=&quot;checkbox2&quot; /&gt;烹饪 <br>
+&lt;input type=&quot;checkbox&quot; name=&quot;checkbox3&quot; id=&quot;checkbox3&quot; /&gt;读书 <br>
+&lt;input type=&quot;checkbox&quot; name=&quot;checkbox4&quot; id=&quot;checkbox4&quot; /&gt;上网&lt;br /&gt;<br>
+&lt;input type=&quot;checkbox&quot; name=&quot;checkbox5&quot; id=&quot;checkbox5&quot; /&gt;音乐 <br>
+&lt;input type=&quot;checkbox&quot; name=&quot;checkbox6&quot; id=&quot;checkbox6&quot; /&gt;购物 <br>
+&lt;input type=&quot;checkbox&quot; name=&quot;checkbox7&quot; id=&quot;checkbox7&quot; /&gt;运动 <br>
+&lt;input type=&quot;checkbox&quot; name=&quot;checkbox8&quot; id=&quot;checkbox8&quot; /&gt;游戏<br>
+&lt;/td&gt;<br>
+&lt;td bgcolor=&quot;#66FFFF&quot;&gt;/*可多选*/&lt;/td&gt;<br>
+&lt;/tr&gt;<br>
+&lt;tr&gt;<br>
+&lt;td align=&quot;right&quot;&gt;留言：&lt;/td&gt;<br>
+&lt;td&gt;&lt;textarea name=&quot;textarea&quot; id=&quot;textarea&quot; cols=&quot;35&quot; rows=&quot;5&quot;&gt;&lt;/textarea&gt;&lt;/td&gt;<br>
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;<br>
+&lt;/tr&gt;<br>
+&lt;tr&gt;<br>
+&lt;td colspan=&quot;3&quot; align=&quot;center&quot; bgcolor=&quot;#FFCC33&quot;&gt;请选择下面的按钮提交表单&lt;/td&gt;<br>
+&lt;/tr&gt;<br>
+&lt;tr&gt;<br>
+&lt;td colspan=&quot;3&quot; align=&quot;center&quot;&gt;&lt;input type=&quot;reset&quot; name=&quot;button&quot; id=&quot;button&quot; 
+value=&quot;重置&quot; /&gt; <br>
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input type=&quot;submit&quot; name=&quot;button2&quot; id=&quot;button2&quot; 
+value=&quot;提交&quot; /&gt;&lt;/td&gt;<br>
+&lt;/tr&gt;<br>
+&lt;/table&gt;<br>
+&lt;/form&gt;<br>
+&lt;/body&gt;<br>
+&lt;/html&gt;<br>
+　</p>
+
+</body>
+
+</html>
